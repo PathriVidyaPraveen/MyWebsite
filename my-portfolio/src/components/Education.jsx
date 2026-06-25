@@ -1,4 +1,4 @@
-// src/components/Education.js
+// src/components/Education.jsx
 import React from 'react';
 
 const Education = ({ data }) => {
@@ -19,12 +19,25 @@ const Education = ({ data }) => {
         ))}
       </div>
 
-      <h3 className="text-2xl font-semibold text-white mb-4 mt-8">Relevant Courses</h3>
-      <div className="flex flex-wrap gap-2">
-        {data.courses.sort().map((course, index) => (
-          <span key={index} className="bg-gray-700 text-gray-200 px-3 py-1 rounded-md text-sm">
-            {course}
-          </span>
+      <h3 className="text-2xl font-semibold text-accent-blue mb-6 border-b-2 border-accent-blue pb-2 mt-10">Relevant Courses</h3>
+      <div className="space-y-6">
+        {data.courseCategories.map((group, index) => (
+          <div key={index}>
+            <h4 className="text-lg font-semibold text-accent-blue mb-2 border-b border-gray-700 pb-1">
+              {group.category}
+            </h4>
+            {group.courses.length > 0 ? (
+              <div className="flex flex-wrap gap-2">
+                {group.courses.map((course, courseIndex) => (
+                  <span key={courseIndex} className="bg-gray-700 text-gray-200 px-3 py-1 rounded-md text-sm">
+                    {course}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="text-gray-500 text-sm italic">No courses listed yet.</p>
+            )}
+          </div>
         ))}
       </div>
     </div>

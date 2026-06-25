@@ -17,7 +17,19 @@ const Projects = ({ data }) => {
             {project.dates && (
               <p className="text-sm text-gray-300 mb-3">{project.dates}</p>
             )}
-            <p className="text-gray-200 text-md mb-4">{project.description}</p>
+            {project.description && (
+              <p className="text-gray-200 text-md mb-3">{project.description}</p>
+            )}
+            {project.bullets && (
+              <ul className="space-y-2 mb-4">
+                {project.bullets.map((point, i) => (
+                  <li key={i} className="flex items-start gap-2 text-gray-200 text-sm leading-relaxed">
+                    <span className="mt-1 text-accent-blue shrink-0">•</span>
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
             {project.technologies && project.technologies.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech, techIndex) => (
@@ -45,7 +57,7 @@ const Projects = ({ data }) => {
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-green-300 font-semibold flex items-center"
                 >
-                  Live Demo <span className="ml-1 text-sm">↗</span>
+                  {project.liveDemoLabel || "Live Demo"} <span className="ml-1 text-sm">↗</span>
                 </a>
               )}
             </div>

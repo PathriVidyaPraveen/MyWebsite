@@ -7,9 +7,12 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-center items-center"> {/* Changed justify-between to justify-center */}
         <div className="flex gap-8"> {/* Changed space-x-4 to flex gap-8 for more uniform spacing */}
           <a href="#about" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">About</a>
+          <a href="#news" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">News</a>
           <a href="#skills" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Skills</a>
+          <a href="#experience" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Experience</a>
           <a href="#projects" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Projects</a>
           <a href="#education" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Education</a>
+          <a href="#awards" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Awards</a>
           <a href="#contact" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Contact</a>
         </div>
       </div>

@@ -3,9 +3,12 @@ import React from 'react'; // No useState, useEffect needed for this structure a
 import data from './data.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
+import News from './components/News.jsx';
 import Skills from './components/Skills.jsx';
+import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
 import Education from './components/Education.jsx';
+import Volunteering from './components/Volunteering.jsx';
 import Certifications from './components/Certifications.jsx';
 import HonorsAndAwards from './components/HonorsAndAwards.jsx';
 import Contact from './components/Contact.jsx';
@@ -46,8 +49,16 @@ function App() {
             <About data={data} />
           </section>
 
+          <section id="news" className="py-16 md:py-24">
+            <News data={data} />
+          </section>
+
           <section id="skills" className="py-16 md:py-24">
             <Skills data={data} />
+          </section>
+
+          <section id="experience" className="py-16 md:py-24">
+            <Experience data={data} />
           </section>
 
           <section id="projects" className="py-16 md:py-24">
@@ -58,12 +69,16 @@ function App() {
             <Education data={data} />
           </section>
 
-          <section id="certifications" className="py-16 md:py-24">
-            <Certifications data={data} />
-          </section>
-
           <section id="awards" className="py-16 md:py-24">
             <HonorsAndAwards data={data} />
+          </section>
+
+          <section id="volunteering" className="py-16 md:py-24">
+            <Volunteering data={data} />
+          </section>
+
+          <section id="certifications" className="py-16 md:py-24">
+            <Certifications data={data} />
           </section>
 
           <section id="contact" className="py-16 md:py-24">

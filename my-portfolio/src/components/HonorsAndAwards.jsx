@@ -12,12 +12,22 @@ const HonorsAndAwards = ({ data }) => {
           <div key={index} className="bg-component-bg p-5 rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-white mb-1">{award.name}</h3>
             <p className="text-gray-300 text-sm mb-1">Issued by: {award.issuer} &bull; {award.date}</p>
-            <p className="text-gray-200">{award.description}</p>
+            <p className="text-gray-200 mb-2">{award.description}</p>
+            {award.link && (
+              <a
+                href={award.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-blue hover:text-blue-400 text-sm font-semibold"
+              >
+                {award.linkLabel} ↗
+              </a>
+            )}
           </div>
         ))}
       </div>
 
-      <h3 className="text-2xl font-semibold text-white mb-4">Test Scores</h3>
+      <h3 className="text-2xl font-semibold text-accent-blue mb-4 border-b-2 border-accent-blue pb-2">Test Scores</h3>
       <div className="space-y-4">
         {data.testScores.map((score, index) => (
           <div key={index} className="bg-component-bg p-5 rounded-lg shadow-md">

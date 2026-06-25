@@ -11,6 +11,7 @@ const Certifications = ({ data }) => {
             <h3 className="text-lg font-bold text-white mb-1">{cert.name}</h3>
             <p className="text-gray-300 text-sm mb-1">{cert.issuer}</p>
             {cert.issuedDate && <p className="text-gray-400 text-xs mb-2">Issued: {cert.issuedDate}</p>}
+            {cert.description && <p className="text-gray-200 text-sm mb-2 leading-relaxed">{cert.description}</p>}
             {cert.skills && cert.skills.length > 0 && (
               <div className="flex flex-wrap gap-1 mb-2">
                 {cert.skills.map((skill, skillIndex) => (
