@@ -460,20 +460,6 @@ const data = {
 
   certifications: [
     {
-      name: "Developing AI Applications with Python and Flask",
-      issuer: "IBM",
-      issuedDate: null,
-      skills: ["Python", "Flask", "Artificial Intelligence (AI)"],
-      link: "https://www.coursera.org/account/accomplishments/verify/ALH0WEPCALRL"
-    },
-    {
-      name: "Developing Front-End Apps with React",
-      issuer: "IBM",
-      issuedDate: null,
-      skills: ["ReactJS", "Full-Stack Development", "JavaScript"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/details/certifications/"
-    },
-    {
       name: "Machine Learning Specialization",
       issuer: "Stanford University & DeepLearning.AI",
       issuedDate: null,
@@ -481,32 +467,11 @@ const data = {
       link: "https://www.coursera.org/account/accomplishments/specialization/UTJQ2ITN41V1"
     },
     {
-      name: "Developing Back-End Apps with Node.js and Express",
-      issuer: "IBM",
+      name: "Deep Learning Specialization",
+      issuer: "DeepLearning.AI",
       issuedDate: null,
-      skills: ["Node.js", "Express.js", "Full-Stack Development"],
-      link: "https://www.coursera.org/account/accomplishments/verify/62JMM6O175DU"
-    },
-    {
-      name: "Intro to Deep Learning",
-      issuer: "Kaggle",
-      issuedDate: null,
-      skills: ["Deep Learning (DL)", "Artificial Intelligence (AI)", "Machine Learning (ML)"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/1535698301/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
-    },
-    {
-      name: "Next.js App Router Fundamentals",
-      issuer: "Vercel",
-      issuedDate: null,
-      skills: ["Next.js", "Full-Stack Development"],
-      link: "https://nextjs.org/learn/certificate?course=dashboard-app&user=69456&certId=dashboard-app-69456-1750485261438"
-    },
-    {
-      name: "Go: The Complete Developer's Guide (Golang)",
-      issuer: "Udemy",
-      issuedDate: null,
-      skills: ["Go (Programming Language)", "Software Development"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/646021210/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
+      skills: ["Deep Learning (DL)", "Artificial Intelligence (AI)", "Machine Learning (ML)", "Neural Networks", "Computer Vision", "Natural Language Processing (NLP)"],
+      link: "https://www.coursera.org/account/accomplishments/specialization/SCRMCI0E1III"
     },
     {
       name: "Natural Language Processing Specialization",
@@ -514,34 +479,6 @@ const data = {
       issuedDate: null,
       skills: ["Natural Language Processing (NLP)", "Deep Learning (DL)", "Artificial Intelligence (AI)", "Machine Learning (ML)"],
       link: "https://www.coursera.org/account/accomplishments/specialization/3EZHPHPTRJZI"
-    },
-    {
-      name: "C++ with Beginner DSA",
-      issuer: "CodeChef",
-      issuedDate: null,
-      skills: ["C++", "Data Structures and Algorithms", "Problem Solving"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/1534987954/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
-    },
-    {
-      name: "Go with Problem Solving",
-      issuer: "CodeChef",
-      issuedDate: null,
-      skills: ["Go (Programming Language)", "Problem Solving", "Competitive Programming"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/1535062530/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
-    },
-    {
-      name: "Rust with Problem Solving",
-      issuer: "CodeChef",
-      issuedDate: null,
-      skills: ["Rust", "Problem Solving", "Competitive Programming"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/1535146198/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
-    },
-    {
-      name: "PHP with Problem Solving",
-      issuer: "CodeChef",
-      issuedDate: null,
-      skills: ["PHP", "Problem Solving", "Competitive Programming"],
-      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/1535205879/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
     },
     {
       name: "Generative Adversarial Networks (GANs) Specialization",
@@ -578,6 +515,34 @@ const data = {
       skills: ["Computer Vision", "Artificial Intelligence (AI)", "Machine Learning (ML)", "Satellite Imagery", "Geospatial Intelligence"],
       description: "This certification of acknowledgement is awarded for active participation in ISRO Bharatiya Antariksha Hackathon 2025 for a novel idea addressing a real world challenge in AI in the field of Computer Vision — a scalable AI/ML-powered system for automated glacial lake detection, temporal monitoring, and risk forecasting using multi-source satellite imagery.",
       link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/703717475/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
+    },
+    {
+      name: "Developing AI Applications with Python and Flask",
+      issuer: "IBM",
+      issuedDate: null,
+      skills: ["Python", "Flask", "Artificial Intelligence (AI)"],
+      link: "https://www.coursera.org/account/accomplishments/verify/ALH0WEPCALRL"
+    },
+    {
+      name: "Developing Front-End Apps with React",
+      issuer: "IBM",
+      issuedDate: null,
+      skills: ["ReactJS", "Full-Stack Development", "JavaScript"],
+      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/details/certifications/"
+    },
+    {
+      name: "Developing Back-End Apps with Node.js and Express",
+      issuer: "IBM",
+      issuedDate: null,
+      skills: ["Node.js", "Express.js", "Full-Stack Development"],
+      link: "https://www.coursera.org/account/accomplishments/verify/62JMM6O175DU"
+    },
+    {
+      name: "Go: The Complete Developer's Guide (Golang)",
+      issuer: "Udemy",
+      issuedDate: null,
+      skills: ["Go (Programming Language)", "Software Development"],
+      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Certifications/646021210/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64"
     }
   ],
 
