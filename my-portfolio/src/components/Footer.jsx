@@ -22,7 +22,12 @@ const Footer = ({ data }) => {
           )}
           {data.email && (
             <a href={`mailto:${data.email}`} className="hover:text-accent-blue transition-colors duration-300">
-              Email
+              Email (IITH)
+            </a>
+          )}
+          {data.emailSecondary && (
+            <a href={`mailto:${data.emailSecondary}`} className="hover:text-accent-blue transition-colors duration-300">
+              Email (Alternate)
             </a>
           )}
         </div>

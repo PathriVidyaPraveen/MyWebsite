@@ -13,9 +13,10 @@ const About = ({ data }) => {
           <h3 className="font-semibold text-white mb-2">Personal Details:</h3>
           <ul>
             <li><strong className="text-accent-blue">Location:</strong> {data.location}</li>
-            <li><strong className="text-accent-blue">Date of Birth:</strong> {data.dob}</li>
-            <li><strong className="text-accent-blue">Phone:</strong> {data.phone}</li>
             <li><strong className="text-accent-blue">Email:</strong> <a href={`mailto:${data.email}`} className="text-blue-400 hover:underline">{data.email}</a></li>
+            {data.emailSecondary && (
+              <li><strong className="text-accent-blue">Email (alternate):</strong> <a href={`mailto:${data.emailSecondary}`} className="text-blue-400 hover:underline">{data.emailSecondary}</a></li>
+            )}
           </ul>
         </div>
         <div>

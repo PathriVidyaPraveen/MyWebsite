@@ -38,8 +38,9 @@ function App() {
           {/* TypewriterEffect remains in its section */}
           <div className="py-16 md:py-24 flex justify-center items-center">
             <TypewriterEffect
-              text="Obsessed with the 'why'. Mastering the 'how'."
-              delay={100}
+              text="It is not knowledge, but the act of learning that grants the greatest enjoyment."
+              attribution="— Gauss"
+              delay={60}
               loop={true}
               loopDelay={3000}
             />
@@ -53,9 +54,7 @@ function App() {
             <News data={data} />
           </section>
 
-          <section id="skills" className="py-16 md:py-24">
-            <Skills data={data} />
-          </section>
+          {/* Skills section hidden temporarily */}
 
           <section id="experience" className="py-16 md:py-24">
             <Experience data={data} />

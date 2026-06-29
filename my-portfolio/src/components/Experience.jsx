@@ -9,7 +9,11 @@ const Experience = ({ data }) => {
         {data.experience.map((exp, index) => (
           <div key={index} className="bg-component-bg border border-gray-700 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-white mb-1">{exp.title}</h3>
-            <p className="text-lg text-accent-blue mb-1">{exp.workplace}</p>
+            {exp.workplaceUrl ? (
+              <a href={exp.workplaceUrl} target="_blank" rel="noopener noreferrer" className="text-lg text-accent-blue mb-1 hover:underline block">{exp.workplace}</a>
+            ) : (
+              <p className="text-lg text-accent-blue mb-1">{exp.workplace}</p>
+            )}
             <p className="text-gray-300 text-sm mb-3">{exp.duration}</p>
             {exp.bullets ? (
               <ul className="space-y-2">

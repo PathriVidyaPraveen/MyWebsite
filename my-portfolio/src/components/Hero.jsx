@@ -27,24 +27,6 @@ const Hero = ({ data }) => {
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
             {data.about.summary}
           </p>
-          <div className="flex flex-wrap justify-center md:justify-start gap-4">
-            <a
-              href={data.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-accent-blue hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
-            >
-              GitHub
-            </a>
-            <a
-              href={data.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
-            >
-              LinkedIn
-            </a>
-          </div>
         </div>
       </div>
     </div>

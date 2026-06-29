@@ -1,7 +1,7 @@
 // src/components/TypewriterEffect.jsx
 import React, { useState, useEffect, useRef } from 'react'; // Added useRef
 
-const TypewriterEffect = ({ text, delay = 100, loop = false, loopDelay = 1000 }) => { // Added loop and loopDelay
+const TypewriterEffect = ({ text, attribution = '', delay = 100, loop = false, loopDelay = 1000 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const timeoutRef = useRef(null); // To store the timeout ID for cleanup
@@ -34,12 +34,23 @@ const TypewriterEffect = ({ text, delay = 100, loop = false, loopDelay = 1000 })
     };
   }, [currentIndex, text, delay, loop, loopDelay]); // Dependencies for useEffect
 
+  const typingDone = currentIndex === text.length;
+
   return (
-    <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-8">
-      {displayedText}
-      {/* Blinking cursor: Show only when actively typing or if not looping (so it stays at the end) */}
-      {!loop || (loop && currentIndex < text.length) ? <span className="animate-blink">|</span> : null}
-    </h2>
+    <div className="text-center">
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
+        {displayedText}
+        {!loop || (loop && currentIndex < text.length) ? <span className="animate-blink">|</span> : null}
+      </h2>
+      {attribution && (
+        <p
+          className="text-xl md:text-2xl text-secondary-light mt-2 transition-opacity duration-500"
+          style={{ opacity: typingDone ? 1 : 0 }}
+        >
+          {attribution}
+        </p>
+      )}
+    </div>
   );
 };
 

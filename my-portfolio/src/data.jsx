@@ -4,10 +4,9 @@ const data = {
   name: "Pathri Vidya Praveen",
   photoPlaceholder: "/mnt/c/Engineering/linkedin_profile_pic.jpg", // Remember to replace this with your actual image path
   headline: "B.Tech 3rd Year Student | Computer Science & Engineering | IIT Hyderabad",
-  location: "Vijayawada, Andhra Pradesh, India",
-  dob: "16 December 2006",
-  phone: "+91 9494575728",
-  email: "vidyapraveen.2006@gmail.com",
+  location: "IIT Hyderabad, Kandi, Telangana, India",
+  email: "cs24btech11047@iith.ac.in",
+  emailSecondary: "vidyapraveen.2006@gmail.com",
   github: "https://github.com/PathriVidyaPraveen",
   linkedin: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a",
   codeforces: "https://codeforces.com/profile/praveen.ipynb",
@@ -16,19 +15,19 @@ const data = {
 
   about: {
     summary: "My research interests involve intersection of Mathematics, Theoretical Physics and Machine Learning. Currently investigating problems in Fluid Dynamics, Optimal Transport, Computer Vision and Cryptography.",
-    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad. My work is driven by a commitment to rigorous theoretical mathematics and its applications in fields like theoretical physics and machine learning. I am particularly interested in exploring math-intensive domains, including communication systems, coding theory, signal processing, quantum computing, quantitative finance, and theoretical computer science. I also love to solve competitive programming problems. Beyond my technical pursuits, I enjoy studying psychology and philosophy."
+    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad. My work is grounded in rigorous theoretical mathematics and its deep connections to theoretical physics and machine learning. I am drawn to areas where abstraction does real work — coding theory, signal processing, quantum computing, quantitative finance, and theoretical computer science. But mathematics is only half of what I find myself thinking about. Psychology and philosophy have always felt like the other side of the same curiosity — one studies the structure of the world, the other studies the structure of the mind trying to understand it."
   },
 
   experience: [
     {
       title: "Cryptography Research Intern",
       workplace: "Center for Cryptography and Cybersecurity, IIT Hyderabad",
+      workplaceUrl: "https://ccs.iith.ac.in/",
       duration: "May 2026 – July 2026",
       bullets: [
-        "Conducted research on Zero-Correlation Linear Cryptanalysis of Unbalanced Feistel Networks, with a primary focus on the block cipher SM4.",
-        "Developed rigorous mathematical frameworks for analyzing linear and differential cryptanalytic attacks, including the derivation and evaluation of distinguisher properties.",
-        "Performed complexity-theoretic analysis of cryptanalytic techniques, studying computational feasibility and attack scalability under practical resource constraints.",
-        "Investigated the computational hardness of cryptanalytic problems through formal reductions to established NP-hard and NP-complete problems, exploring theoretical limits of attack construction and optimization."
+        "Investigated Zero-Correlation Linear Cryptanalysis of the block cipher SM4, focusing on unbalanced Feistel network structures.",
+        "Developed mathematical frameworks for analyzing linear and differential cryptanalytic distinguishers and their properties.",
+        "Performed complexity-theoretic analysis of cryptanalytic attacks, studying computational feasibility under practical resource constraints."
       ]
     },
     {
@@ -120,15 +119,15 @@ const data = {
     },
     {
       date: "11 May 2026",
-      text: "Starting my research internship in Cryptography and Theoretical Computer Science in CCS, IIT Hyderabad."
+      text: "Started my research internship in Cryptography and Theoretical Computer Science in CCS, IIT Hyderabad."
     },
     {
       date: "10 May 2026",
-      text: "Achieved an A+ grade in EE5906 Information Theory, Coding and Inference Course."
+      text: "Achieved an A+ grade in EE5903 Information Theory, Coding and Inference Course."
     },
     {
       date: "5 May 2026",
-      text: "Submitted our EE5606 Convex Optimization Course Research Project Work and secured an A grade in the course."
+      text: "Submitted our EE5606 Convex Optimization Course Research Project and secured an A grade in the course."
     },
     {
       date: "2 April 2026",
@@ -140,7 +139,7 @@ const data = {
     },
     {
       date: "2 Jan 2026",
-      text: "Presented our research work on Deepfake Detection using Signal Processing on Innovation Day 2026 IITH along with Adishesh Balaji"
+      text: "Presented our research work on Deepfake Detection using Signal Processing on Innovation Day 2026 IITH along with Adishesh Balaji."
     },
     {
       date: "8 Nov 2025",
@@ -701,7 +700,7 @@ const data = {
 
   languages: [
     { name: "English", proficiency: "Full professional proficiency" },
-    { name: "Hindi", proficiency: "Elementary proficiency" },
+    { name: "Hindi", proficiency: "Working proficiency" },
     { name: "Telugu", proficiency: "Native or bilingual proficiency" }
   ]
 };
