@@ -1,18 +1,21 @@
-// src/components/Navbar.js - Option 1: Evenly Distributed Links
+// src/components/Navbar.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const linkClass = "hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl";
+
   return (
     <nav className="bg-primary-dark text-secondary-light p-4 sticky top-0 z-50 shadow-lg">
-      <div className="container mx-auto flex justify-center items-center"> {/* Changed justify-between to justify-center */}
-        <div className="flex gap-8"> {/* Changed space-x-4 to flex gap-8 for more uniform spacing */}
-          <a href="#about" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">About</a>
-          <a href="#news" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">News</a>
-          <a href="#experience" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Experience</a>
-          <a href="#projects" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Projects</a>
-          <a href="#education" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Education</a>
-          <a href="#awards" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Awards</a>
-          <a href="#contact" className="hover:text-accent-blue transition-colors duration-300 text-lg md:text-xl">Contact</a>
+      <div className="container mx-auto flex justify-center items-center">
+        <div className="flex gap-8 flex-wrap justify-center">
+          <Link to="/" className={linkClass}>Home</Link>
+          <Link to="/experience" className={linkClass}>Experience</Link>
+          <Link to="/projects" className={linkClass}>Projects</Link>
+          <Link to="/education" className={linkClass}>Education</Link>
+          <Link to="/awards" className={linkClass}>Awards</Link>
+          <Link to="/volunteering" className={linkClass}>Volunteering</Link>
+          <Link to="/certifications" className={linkClass}>Certifications</Link>
         </div>
       </div>
     </nav>

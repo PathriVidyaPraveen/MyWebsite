@@ -3,11 +3,11 @@ import React from 'react';
 
 const Education = ({ data }) => {
   return (
-    <div className="bg-component-bg p-8 rounded-lg shadow-xl">
-      <h2 className="text-3xl font-bold text-accent-blue mb-6 border-b-2 border-accent-blue pb-2">Education</h2>
-      <div className="space-y-8">
+    <div>
+      <h2 className="text-3xl font-bold text-accent-blue mb-10 border-b-2 border-accent-blue pb-2">Education</h2>
+      <div className="flex flex-col gap-8 mb-16">
         {data.education.map((edu, index) => (
-          <div key={index} className="bg-component-bg p-6 rounded-lg shadow-md">
+          <div key={index} className="bg-component-bg p-6 rounded-lg shadow-md border border-gray-700">
             <h3 className="text-xl font-bold text-white mb-1">{edu.institution}</h3>
             <p className="text-lg text-accent-blue mb-1">{edu.degree}</p>
             <p className="text-gray-300 text-sm mb-2">{edu.dates}</p>
@@ -19,11 +19,11 @@ const Education = ({ data }) => {
         ))}
       </div>
 
-      <h3 className="text-2xl font-semibold text-accent-blue mb-6 border-b-2 border-accent-blue pb-2 mt-10">Relevant Courses</h3>
-      <div className="space-y-6">
+      <h3 className="text-2xl font-semibold text-accent-blue mb-8 border-b-2 border-accent-blue pb-2">Relevant Courses</h3>
+      <div className="flex flex-col gap-6">
         {data.courseCategories.map((group, index) => (
-          <div key={index}>
-            <h4 className="text-lg font-semibold text-accent-blue mb-2 border-b border-gray-700 pb-1">
+          <div key={index} className="bg-component-bg p-5 rounded-lg border border-gray-700">
+            <h4 className="text-lg font-semibold text-accent-blue mb-3 border-b border-gray-700 pb-1">
               {group.category}
             </h4>
             {group.courses.length > 0 ? (

@@ -1,93 +1,87 @@
-// src/App.js
-import React from 'react'; // No useState, useEffect needed for this structure anymore
+// src/App.jsx
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import data from './data.jsx';
-import Hero from './components/Hero.jsx';
-import About from './components/About.jsx';
-import News from './components/News.jsx';
-import Skills from './components/Skills.jsx';
-import Experience from './components/Experience.jsx';
-import Projects from './components/Projects.jsx';
-import Education from './components/Education.jsx';
-import Volunteering from './components/Volunteering.jsx';
-import Certifications from './components/Certifications.jsx';
-import HonorsAndAwards from './components/HonorsAndAwards.jsx';
-import Contact from './components/Contact.jsx';
+
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import ThreeBackground from './components/ThreeBackground.jsx';
-import TypewriterEffect from './components/TypewriterEffect.jsx'; // Make sure this import is here
 
-function App() {
+import Hero from './components/Hero.jsx';
+import About from './components/About.jsx';
+import News from './components/News.jsx';
+import Contact from './components/Contact.jsx';
+import TypewriterEffect from './components/TypewriterEffect.jsx';
+
+import ExperiencePage from './pages/ExperiencePage.jsx';
+import ProjectsPage from './pages/ProjectsPage.jsx';
+import EducationPage from './pages/EducationPage.jsx';
+import AwardsPage from './pages/AwardsPage.jsx';
+import VolunteeringPage from './pages/VolunteeringPage.jsx';
+import CertificationsPage from './pages/CertificationsPage.jsx';
+
+function Layout({ children }) {
   return (
-    <div className="relative min-h-screen">
-      {/* Fixed Three.js Background covering the entire page, below all content */}
+    <>
       <div className="full-screen-background-container">
         <ThreeBackground />
       </div>
-
-      {/* Main content wrapper: REMOVED GLOBAL BACKGROUND OVERLAY */}
-      {/* It now only manages z-index and min-height, allowing Three.js background to show through */}
-      <div className="relative z-10 min-h-screen"> 
+      <div className="relative min-h-screen" style={{ zIndex: 1 }}>
         <Navbar />
-
-        <main className="container mx-auto px-4 py-8">
-          <section id="home" className="py-16 md:py-24">
-            <Hero data={data} />
-          </section>
-
-          {/* TypewriterEffect remains in its section */}
-          <div className="py-16 md:py-24 flex justify-center items-center">
-            <TypewriterEffect
-              text="It is not knowledge, but the act of learning that grants the greatest enjoyment."
-              attribution="— Gauss"
-              delay={60}
-              loop={true}
-              loopDelay={3000}
-            />
-          </div>
-
-          <section id="about" className="py-16 md:py-24">
-            <About data={data} />
-          </section>
-
-          <section id="news" className="py-16 md:py-24">
-            <News data={data} />
-          </section>
-
-          {/* Skills section hidden temporarily */}
-
-          <section id="experience" className="py-16 md:py-24">
-            <Experience data={data} />
-          </section>
-
-          <section id="projects" className="py-16 md:py-24">
-            <Projects data={data} />
-          </section>
-
-          <section id="education" className="py-16 md:py-24">
-            <Education data={data} />
-          </section>
-
-          <section id="awards" className="py-16 md:py-24">
-            <HonorsAndAwards data={data} />
-          </section>
-
-          <section id="volunteering" className="py-16 md:py-24">
-            <Volunteering data={data} />
-          </section>
-
-          <section id="certifications" className="py-16 md:py-24">
-            <Certifications data={data} />
-          </section>
-
-          <section id="contact" className="py-16 md:py-24">
-            <Contact data={data} />
-          </section>
-        </main>
-
+        {children}
         <Footer data={data} />
       </div>
-    </div>
+    </>
+  );
+}
+
+function HomePage() {
+  return (
+    <main className="container mx-auto px-4 py-8">
+      <section id="home" className="py-16 md:py-24">
+        <Hero data={data} />
+      </section>
+
+      <div className="py-16 md:py-24 flex justify-center items-center">
+        <TypewriterEffect
+          text="It is not knowledge, but the act of learning that grants the greatest enjoyment."
+          attribution="— Gauss"
+          delay={60}
+          loop={true}
+          loopDelay={3000}
+        />
+      </div>
+
+      <section id="about" className="py-16 md:py-24">
+        <About data={data} />
+      </section>
+
+      <section id="news" className="py-16 md:py-24">
+        <News data={data} />
+      </section>
+
+      <section id="contact" className="py-16 md:py-24">
+        <Contact data={data} />
+      </section>
+    </main>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/education" element={<EducationPage />} />
+          <Route path="/awards" element={<AwardsPage />} />
+          <Route path="/volunteering" element={<VolunteeringPage />} />
+          <Route path="/certifications" element={<CertificationsPage />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

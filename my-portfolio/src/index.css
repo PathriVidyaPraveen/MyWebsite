@@ -34,15 +34,14 @@ html, body, #root {
 /* Make the div containing your ThreeBackground component take full size
    and position it absolutely behind everything else.
    Crucially, it is NOT affected by scrolling of other content. */
-.full-screen-background-container { /* RENAMED for clarity */
-  position: fixed; /* Changed from absolute to fixed so it stays in viewport */
+.full-screen-background-container {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Place it behind all other content */
-  /* Ensure it fills the entire viewport and doesn't scroll with content */
-  pointer-events: none; /* Allows clicks/hovers to pass through to content below, if desired */
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* The Canvas element itself will naturally fill its parent */

@@ -1,13 +1,13 @@
-// src/components/Projects.js
+// src/components/Projects.jsx
 import React from 'react';
 
 const Projects = ({ data }) => {
   return (
-    <div className="bg-component-bg p-8 rounded-lg shadow-xl">
-      <h2 className="text-3xl font-bold text-accent-blue mb-6 border-b-2 border-accent-blue pb-2">Projects</h2>
+    <div>
+      <h2 className="text-3xl font-bold text-accent-blue mb-10 border-b-2 border-accent-blue pb-2">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {data.projects.map((project, index) => (
-          <div key={index} className="bg-component-bg p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div key={index} className="bg-component-bg p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-700">
             <h3 className="text-xl font-bold text-white mb-2">{project.name}</h3>
             {project.association && (
               <p className="text-sm text-gray-300 mb-2">
