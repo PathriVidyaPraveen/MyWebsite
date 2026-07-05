@@ -572,7 +572,10 @@ const data = {
         "Digital Circuits (A+)",
         "Random Processes (A)",
         "Energy Management (A)",
-        "Basic Electrical Engineering (A+)"
+        "Basic Electrical Engineering (A+)",
+        "Quantum Error Correction (currently enrolled)",
+        "Linear Systems and Signal Processing (currently enrolled)",
+        "Matrix Theory and Applications (currently enrolled)"
 
       ]
     },
@@ -581,16 +584,33 @@ const data = {
       courses: [
         "Concentration Inequalities (A)",
         "Probability and Random Variables (A)",
-        "Artificial Intelligence (A-)"
+        "Artificial Intelligence (A-)",
+        "Foundations of Machine Learning (currently enrolled)",
+        "Reinforcement Learning (currently enrolled)",
+        "Data Mining (currently enrolled)",
+        "Convex Optimization 2: Algorithms (currently enrolled)"
       ]
     },
     {
-      category: "Computer Science",
+      category: "Theoretical Computer Science",
       courses: [
         "Discrete Maths for Computer Science (A)",
         "Theory of Computation",
         "Algorithms (A-)",
         "Data Structures",
+
+      ]
+    },
+    {
+      category: "Physics",
+      courses: [
+        "Physics Lab (A+)",
+        "Modern Physics (A)"
+      ]
+    },
+    {
+      category: "Computer Systems",
+      courses: [
         "Intoduction to Computing (A)",
         "Introduction to Programming (A)",
         "Software Development Fundamentals (A-)",
@@ -600,15 +620,9 @@ const data = {
         "Database Management Systems I (A-)",
         "Introduction to DBMS II (A-)",
         "Compilers-I (A-)",
-        
+        "Compilers-II (currently enrolled)",
+        "Computer Networks (currently enrolled)",
 
-      ]
-    },
-    {
-      category: "Physics",
-      courses: [
-        "Physics Lab (A+)",
-        "Modern Physics (A)"
       ]
     },
     {
@@ -622,7 +636,11 @@ const data = {
         "Consumers and Commodities - An Introduction to Economic Anthropology (A+)",
         "Environmental Chemistry (A)",
         "Digital Fabrication (A-)",
-        
+        "Japanese Culture and Society (A-)",
+        "Courts and Lawyers (currently enrolled)",
+        "Psychology for Everyday Life (currently enrolled)",
+        "Introduction to Queer Studies (currently enrolled)",
+
 
 
       ]
