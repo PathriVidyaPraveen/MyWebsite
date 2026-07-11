@@ -45,6 +45,11 @@ const Contact = ({ data }) => {
             LinkedIn
           </a>
         )}
+        {data.codeforces && (
+          <a href={data.codeforces} target="_blank" rel="noopener noreferrer" className="hover:text-accent-blue transition-colors duration-300 text-lg">
+            Codeforces
+          </a>
+        )}
       </div>
     </div>
   );

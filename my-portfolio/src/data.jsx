@@ -14,7 +14,7 @@ const data = {
   leetcode: "https://leetcode.com/u/Pathri_Vidya_Praveen/",
 
   about: {
-    summary: "My research interests involve intersection of Mathematics, Theoretical Physics and Machine Learning. Currently investigating problems in Fluid Dynamics, Optimal Transport, Computer Vision and Cryptography.",
+    summary: "My research interests involve intersection of Mathematics, Theoretical Physics and Machine Learning. Currently investigating problems in Fluid Dynamics, Optimal Transport and Computer Vision.",
     detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad. My work is grounded in rigorous theoretical mathematics and its deep connections to theoretical physics and machine learning. I am drawn to areas where abstraction does real work — coding theory, signal processing, quantum computing, quantitative finance, and theoretical computer science. But mathematics is only half of what I find myself thinking about. Psychology and philosophy have always felt like the other side of the same curiosity — one studies the structure of the world, the other studies the structure of the mind trying to understand it."
   },
 
@@ -114,6 +114,10 @@ const data = {
 
   news: [
     {
+      date: "8 July 2026",
+      text: "Assisted in organizing the 4th International Conference on Recent Advances in Applied Mathematics organized by Dept. of Mathematics, IITH."
+    },
+    {
       date: "18 June 2026",
       text: "Conducted hands-on sessions in Linear Cryptanalysis in ACM Summer School on Symmetric Key Cryptography as a Teaching Assistant."
     },
@@ -124,10 +128,6 @@ const data = {
     {
       date: "10 May 2026",
       text: "Achieved an A+ grade in EE5903 Information Theory, Coding and Inference Course."
-    },
-    {
-      date: "5 May 2026",
-      text: "Submitted our EE5606 Convex Optimization Course Research Project and secured an A grade in the course."
     },
     {
       date: "2 April 2026",
@@ -225,7 +225,7 @@ const data = {
       
     },
     {
-      institution: "Dr. KKR's Gowthan High School, Vijayawada",
+      institution: "Dr. KKR's Gowtham High School, Vijayawada",
       degree: "Class 6 to Class 10",
       dates: "June 2017 - May 2022",
       grade: "587/600",
