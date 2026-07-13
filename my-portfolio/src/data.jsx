@@ -550,33 +550,29 @@ const data = {
     {
       category: "Mathematics",
       courses: [
+        "Calculus-I (A+)",
+        "Calculus-II (A+)",
         "Complex Variables (A)",
         "Introduction to Statistics (A)",
         "Transform Techniques (A)",
-        "Numerical Analysis (A-)",
-        "Linear Algebra",
-        "Introduction to Metric Spaces",
         "Differential Equations (A)",
+        "Numerical Analysis (A-)",
         "Introduction to Group Theory (A-)",
-        "Calculus-I (A+)",
-        "Calculus-II (A+)"
-
-
+        "Linear Algebra",
+        "Introduction to Metric Spaces"
       ]
     },
     {
       category: "Electrical Engineering",
       courses: [
         "Information Theory, Coding and Inference (A+)",
-        "Convex Optimization (A)",
         "Digital Circuits (A+)",
+        "Basic Electrical Engineering (A+)",
+        "Convex Optimization (A)",
         "Random Processes (A)",
         "Energy Management (A)",
-        "Basic Electrical Engineering (A+)",
         "Quantum Error Correction (currently enrolled)",
-        "Linear Systems and Signal Processing (currently enrolled)",
-        "Matrix Theory and Applications (currently enrolled)"
-
+        "Linear Systems and Signal Processing (currently enrolled)"
       ]
     },
     {
@@ -595,10 +591,9 @@ const data = {
       category: "Theoretical Computer Science",
       courses: [
         "Discrete Maths for Computer Science (A)",
-        "Theory of Computation",
         "Algorithms (A-)",
-        "Data Structures",
-
+        "Theory of Computation",
+        "Data Structures"
       ]
     },
     {
@@ -616,33 +611,30 @@ const data = {
         "Software Development Fundamentals (A-)",
         "Computer Architecture (A-)",
         "Operating Systems I (A-)",
-        "Operating Systems-II",
         "Database Management Systems I (A-)",
         "Introduction to DBMS II (A-)",
         "Compilers-I (A-)",
+        "Operating Systems-II",
         "Compilers-II (currently enrolled)",
-        "Computer Networks (currently enrolled)",
-
+        "Computer Networks (currently enrolled)"
       ]
     },
     {
       category: "Other",
       courses: [
         "Systems Biology (A+)",
-        "Introduction to Life Sciences (A)",
         "Psychology of Well Being (A+)",
-        "Psychopathology and Mental Health (A)",
-        "Psychology of Interpersonal Relationships (A-)",
         "Consumers and Commodities - An Introduction to Economic Anthropology (A+)",
+        "Introduction to Life Sciences (A)",
+        "Psychopathology and Mental Health (A)",
         "Environmental Chemistry (A)",
+        "Psychology of Interpersonal Relationships (A-)",
         "Digital Fabrication (A-)",
         "Japanese Culture and Society (A-)",
+        "Communication Skills (A-)",
         "Courts and Lawyers (currently enrolled)",
         "Psychology for Everyday Life (currently enrolled)",
-        "Introduction to Queer Studies (currently enrolled)",
-
-
-
+        "Introduction to Queer Studies (currently enrolled)"
       ]
     }
   ],

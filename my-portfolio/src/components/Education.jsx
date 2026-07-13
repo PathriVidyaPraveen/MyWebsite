@@ -19,7 +19,7 @@ const Education = ({ data }) => {
         ))}
       </div>
 
-      <h3 className="text-2xl font-semibold text-accent-blue mb-8 border-b-2 border-accent-blue pb-2">Relevant Courses</h3>
+      <h3 className="text-2xl font-semibold text-accent-blue mb-8 border-b-2 border-accent-blue pb-2">Coursework at IIT Hyderabad</h3>
       <div className="flex flex-col gap-6">
         {data.courseCategories.map((group, index) => (
           <div key={index} className="bg-component-bg p-5 rounded-lg border border-gray-700">
