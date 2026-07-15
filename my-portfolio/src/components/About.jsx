@@ -17,6 +17,9 @@ const About = ({ data }) => {
             {data.emailSecondary && (
               <li><strong className="text-accent-blue">Email (alternate):</strong> <a href={`mailto:${data.emailSecondary}`} className="text-blue-400 hover:underline">{data.emailSecondary}</a></li>
             )}
+            {data.codeforces && (
+              <li>Specialist in Codeforces: <a href={data.codeforces} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">Profile</a></li>
+            )}
           </ul>
         </div>
         <div>

@@ -12,9 +12,7 @@ const Education = ({ data }) => {
             <p className="text-lg text-accent-blue mb-1">{edu.degree}</p>
             <p className="text-gray-300 text-sm mb-2">{edu.dates}</p>
             {edu.grade && <p className="text-gray-200 mb-1"><span className="font-semibold">Grade:</span> {edu.grade}</p>}
-            {edu.activities && <p className="text-gray-200 mb-1"><span className="font-semibold">Activities:</span> {edu.activities}</p>}
-            {edu.award && <p className="text-green-300 mb-1"><span className="font-semibold">Award:</span> {edu.award}</p>}
-            {edu.achievements && <p className="text-gray-200"><span className="font-semibold">Achievements:</span> {edu.achievements}</p>}
+            {edu.description && <p className="text-gray-200 whitespace-pre-line">{edu.description}</p>}
           </div>
         ))}
       </div>

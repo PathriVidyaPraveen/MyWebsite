@@ -3,7 +3,7 @@
 const data = {
   name: "Pathri Vidya Praveen",
   photoPlaceholder: "/mnt/c/Engineering/linkedin_profile_pic.jpg", // Remember to replace this with your actual image path
-  headline: "B.Tech 3rd Year Student | Computer Science & Engineering | IIT Hyderabad",
+  headline: "B.Tech 3rd Year | Mathematics | Electrical Engineering | Computer Science & Engineering | IIT Hyderabad",
   location: "IIT Hyderabad, Kandi, Telangana, India",
   email: "cs24btech11047@iith.ac.in",
   emailSecondary: "vidyapraveen.2006@gmail.com",
@@ -15,32 +15,17 @@ const data = {
 
   about: {
     summary: "My research interests involve intersection of Mathematics, Theoretical Physics and Machine Learning. Currently investigating problems in Fluid Dynamics, Optimal Transport and Computer Vision.",
-    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad. My work is grounded in rigorous theoretical mathematics and its deep connections to theoretical physics and machine learning. I am drawn to areas where abstraction does real work — coding theory, signal processing, quantum computing, quantitative finance, and theoretical computer science. But mathematics is only half of what I find myself thinking about. Psychology and philosophy have always felt like the other side of the same curiosity — one studies the structure of the world, the other studies the structure of the mind trying to understand it."
+    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad pursuing Double Major in Mathematics and Minor in Electrical Engineering. My work is grounded in rigorous theoretical mathematics and its deep connections to theoretical physics and machine learning. I am drawn to areas where abstraction does real work — Signal processing, Quantum Computing, Electronics and Communication Systems, Quantitative Finance and Theoretical Computer Science. But mathematics is only half of what I find myself thinking about. Psychology and philosophy have always felt like the other side of the same curiosity — one studies the structure of the world, the other studies the structure of the mind trying to understand it."
   },
 
   experience: [
     {
-      title: "Cryptography Research Intern",
-      workplace: "Center for Cryptography and Cybersecurity, IIT Hyderabad",
-      workplaceUrl: "https://ccs.iith.ac.in/",
-      duration: "May 2026 – July 2026",
-      bullets: [
-        "Investigated Zero-Correlation Linear Cryptanalysis of the block cipher SM4, focusing on unbalanced Feistel network structures.",
-        "Developed mathematical frameworks for analyzing linear and differential cryptanalytic distinguishers and their properties.",
-        "Performed complexity-theoretic analysis of cryptanalytic attacks, studying computational feasibility under practical resource constraints."
-      ]
+      title: "Teaching Assistant",
+      workplace: "Department of Electrical Engineering, IIT Hyderabad",
+      duration: "July 2026 – Sept 2026",
+      description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications."
     },
-    {
-      title: "Optimal Transport Researcher",
-      workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
-      duration: "April 2026 – Present",
-      bullets: [
-        "Studying the mathematical foundations of Optimal Transport, including Kantorovich formulations, Wasserstein geometry, and entropic regularization.",
-        "Exploring applications of Optimal Transport in machine learning, including distribution alignment, domain adaptation, and generative modeling.",
-        "Investigating Optimal Transport-based formulations for rigorous analysis of Deep Generative Models, Flow Models, and Diffusion-based learning frameworks.",
-        "This research was done along with Gagan Chandra under supervision of Prof. Sakethanath Jagarlapudi."
-      ]
-    },
+
     {
       title: "Fluid Dynamics Researcher",
       workplace: "Department of Mathematics, IIT Hyderabad",
@@ -53,6 +38,19 @@ const data = {
         "This research was done under supervision of Prof. Jyotirmoy Rana."
       ]
     },
+    
+    {
+      title: "Optimal Transport Researcher",
+      workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+      duration: "April 2026 – Present",
+      bullets: [
+        "Studying the mathematical foundations of Optimal Transport, including Kantorovich formulations, Wasserstein geometry, and entropic regularization.",
+        "Exploring applications of Optimal Transport in machine learning, including distribution alignment, domain adaptation, and generative modeling.",
+        "Investigating Optimal Transport-based formulations for rigorous analysis of Deep Generative Models, Flow Models, and Diffusion-based learning frameworks.",
+        "This research was done along with Gagan Chandra under supervision of Prof. Sakethanath Jagarlapudi."
+      ]
+    },
+    
     {
       title: "Computer Vision Researcher",
       workplace: "Department of Electrical Engineering, IIT Hyderabad",
@@ -62,6 +60,17 @@ const data = {
         "Formulating the problem using Marked Point Processes (MPP) and Gibbs Energy Models to incorporate spatial interaction priors and object-level constraints.",
         "Designing Bayesian inference pipelines based on Reversible Jump Markov Chain Monte Carlo (RJMCMC) and simulated annealing for optimization over complex spatial configurations.",
         "This research was done under supervision of Prof. Shashank Vatedka."
+      ]
+    },
+    {
+      title: "Cryptography Research Intern",
+      workplace: "Center for Cryptography and Cybersecurity, IIT Hyderabad",
+      workplaceUrl: "https://ccs.iith.ac.in/",
+      duration: "May 2026 – July 2026",
+      bullets: [
+        "Investigated Zero-Correlation Linear Cryptanalysis of the block cipher SM4, focusing on unbalanced Feistel network structures.",
+        "Developed mathematical frameworks for analyzing linear and differential cryptanalytic distinguishers and their properties.",
+        "Performed complexity-theoretic analysis of cryptanalytic attacks, studying computational feasibility under practical resource constraints."
       ]
     },
     {
@@ -75,12 +84,7 @@ const data = {
         "This research was done along with Adishesh Balaji under supervision of Prof. Sumohana S. Channappayya."
       ]
     },
-    {
-      title: "Teaching Assistant",
-      workplace: "Department of Electrical Engineering, IIT Hyderabad",
-      duration: "July 2026 – Sept 2026",
-      description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications."
-    },
+    
     {
       title: "Teaching Assistant",
       workplace: "Department of AI, IIT Hyderabad",
@@ -209,28 +213,38 @@ const data = {
   education: [
     {
       institution: "Indian Institute of Technology, Hyderabad",
+      degree: "B.Tech Double Major in Mathematics",
+      dates: "July 2026 - July 2028",
+      grade: "NA",
+      description: "Coursework:\n1) Numerical Analysis"
+    },
+    {
+      institution: "Indian Institute of Technology, Hyderabad",
+      degree: "B.Tech Minor in Electrical Engineering",
+      dates: "July 2026 - July 2028",
+      grade: "NA",
+      description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction"
+    },
+    {
+      institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Computer Science and Engineering",
       dates: "July 2024 - July 2028",
       grade: "9.23",
-      activities: "Participated actively in various research projects involving rigorous mathematics, worked as Teaching Assistant for many courses.",
-      award: "Awarded with the prestigious Academic Excellence Award on 2 April, 2025 for my highest GPA of 9.88 among all the CSE'28 batch in the 1st semester."
+      description: "Awarded with the prestigious Academic Excellence Award on 2 April, 2025 for my highest GPA of 9.88 among all the CSE'28 batch in the 1st semester. Learning Mathematics, Electrical Engineering, AI ML, Physics, Theoretical Computer Science and Computer Systems."
     },
     {
       institution: "Narayana Junior College - Vijayawada",
       degree: "Intermediate - Maths, Physics, Chemistry",
       dates: "May 2022 - 2024",
       grade: "987/1000",
-      activities: "Rank of 84 in JEE Mains 2024, rank of 842 in JEE Advanced 2024.",
-      award: " Awarded with the Certificate of Merit for getting placed in the National Top 1% in the National Standard Examination of Chemistry (NSEC)."
-      
+      description: "Got a rank of 84 in JEE Mains 2024 and a rank of 842 in JEE Advanced 2024 and have been awarded with the Certificate of Merit for getting placed in the National Top 1% in the National Standard Examination of Chemistry (NSEC)."
     },
     {
       institution: "Dr. KKR's Gowtham High School, Vijayawada",
       degree: "Class 6 to Class 10",
       dates: "June 2017 - May 2022",
       grade: "587/600",
-      activities: "Learnt different topics in Mathematics, Physics, Chemistry, Biology with a special focus for JEE Advanced",
-      award: "Won several gold medals and trophies in high school Mathematics and Science Olympiads"
+      description: "Learnt different topics in Mathematics, Physics, Chemistry, Biology with a special focus for JEE Advanced and has won several gold medals and trophies in Mathematics and Science Olympiads"
     }
   ],
 
