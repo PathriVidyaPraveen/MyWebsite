@@ -1,6 +1,8 @@
 // src/components/Education.jsx
 import React from 'react';
 
+const SHOW_COURSEWORK = false;
+
 const Education = ({ data }) => {
   return (
     <div>
@@ -17,27 +19,31 @@ const Education = ({ data }) => {
         ))}
       </div>
 
-      <h3 className="text-2xl font-semibold text-accent-blue mb-8 border-b-2 border-accent-blue pb-2">Coursework at IIT Hyderabad</h3>
-      <div className="flex flex-col gap-6">
-        {data.courseCategories.map((group, index) => (
-          <div key={index} className="bg-component-bg p-5 rounded-lg border border-gray-700">
-            <h4 className="text-lg font-semibold text-accent-blue mb-3 border-b border-gray-700 pb-1">
-              {group.category}
-            </h4>
-            {group.courses.length > 0 ? (
-              <div className="flex flex-wrap gap-2">
-                {group.courses.map((course, courseIndex) => (
-                  <span key={courseIndex} className="bg-gray-700 text-gray-200 px-3 py-1 rounded-md text-sm">
-                    {course}
-                  </span>
-                ))}
+      {SHOW_COURSEWORK && (
+        <>
+          <h3 className="text-2xl font-semibold text-accent-blue mb-8 border-b-2 border-accent-blue pb-2">Coursework at IIT Hyderabad</h3>
+          <div className="flex flex-col gap-6">
+            {data.courseCategories.map((group, index) => (
+              <div key={index} className="bg-component-bg p-5 rounded-lg border border-gray-700">
+                <h4 className="text-lg font-semibold text-accent-blue mb-3 border-b border-gray-700 pb-1">
+                  {group.category}
+                </h4>
+                {group.courses.length > 0 ? (
+                  <div className="flex flex-wrap gap-2">
+                    {group.courses.map((course, courseIndex) => (
+                      <span key={courseIndex} className="bg-gray-700 text-gray-200 px-3 py-1 rounded-md text-sm">
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-gray-500 text-sm italic">No courses listed yet.</p>
+                )}
               </div>
-            ) : (
-              <p className="text-gray-500 text-sm italic">No courses listed yet.</p>
-            )}
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      )}
     </div>
   );
 };

@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import data from './data.jsx';
 
 import Navbar from './components/Navbar.jsx';
@@ -17,7 +17,6 @@ import ExperiencePage from './pages/ExperiencePage.jsx';
 import ProjectsPage from './pages/ProjectsPage.jsx';
 import EducationPage from './pages/EducationPage.jsx';
 import AwardsPage from './pages/AwardsPage.jsx';
-import VolunteeringPage from './pages/VolunteeringPage.jsx';
 import CertificationsPage from './pages/CertificationsPage.jsx';
 
 function Layout({ children }) {
@@ -73,11 +72,11 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/experience" element={<Navigate to="/experience/research" replace />} />
+          <Route path="/experience/:category" element={<ExperiencePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/education" element={<EducationPage />} />
           <Route path="/awards" element={<AwardsPage />} />
-          <Route path="/volunteering" element={<VolunteeringPage />} />
           <Route path="/certifications" element={<CertificationsPage />} />
         </Routes>
       </Layout>

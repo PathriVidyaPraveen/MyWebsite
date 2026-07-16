@@ -1,12 +1,12 @@
 // src/components/Experience.jsx
 import React from 'react';
 
-const Experience = ({ data }) => {
+const Experience = ({ items, title }) => {
   return (
     <div>
-      <h2 className="text-3xl font-bold text-accent-blue mb-10 border-b-2 border-accent-blue pb-2">Experience</h2>
+      <h2 className="text-3xl font-bold text-accent-blue mb-10 border-b-2 border-accent-blue pb-2">{title}</h2>
       <div className="flex flex-col gap-8">
-        {data.experience.map((exp, index) => (
+        {items.map((exp, index) => (
           <div key={index} className="bg-component-bg border border-gray-700 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-white mb-1">{exp.title}</h3>
             {exp.workplaceUrl ? (

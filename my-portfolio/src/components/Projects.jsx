@@ -30,15 +30,6 @@ const Projects = ({ data }) => {
                 ))}
               </ul>
             )}
-            {project.technologies && project.technologies.length > 0 && (
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.technologies.map((tech, techIndex) => (
-                  <span key={techIndex} className="bg-gray-600 text-sm px-3 py-1 rounded-full text-blue-200">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            )}
             <div className="flex flex-wrap gap-4 mt-4">
               {project.github && (
                 <a
