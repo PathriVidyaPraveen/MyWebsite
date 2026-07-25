@@ -81,19 +81,25 @@ const data = {
     teaching: [
       {
         title: "Teaching Assistant",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+        duration: "July 2026 – Nov 2026",
+        description: "Assisting as a Teaching Assistant for CS1010 Discrete Mathematics for Computer Science course during the Jul–Nov 2026 semester under Prof. Rogers Mathew, supporting tutorials, course administration, and student discussions."
+      },
+      {
+        title: "Teaching Assistant",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "July 2026 – Sept 2026",
         description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications."
       },
       {
         title: "Teaching Assistant",
-        workplace: "Department of AI, IIT Hyderabad",
+        workplace: "Department of Artificial Intelligence, IIT Hyderabad",
         duration: "Jan 2026 – May 2026",
         description: "Assisted as a Teaching Assistant for AI1110 Probability and Random Variables course during the Jan–May 2026 semester under Prof. Anjana A M, helping with course logistics, conducting tutorials, and addressing student queries on probability theory and random variables."
       },
       {
         title: "Teaching Assistant",
-        workplace: "Department of CSE, IIT Hyderabad",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "July 2025 – Dec 2025",
         description: "Assisted as a Teaching Assistant for ID1063 Introduction to Programming course during the Jul–Nov 2025 semester under Prof. Saurabh Kumar and Prof. Srijith PK, conducting laboratory sessions and mentoring students in C programming fundamentals."
       }
@@ -351,6 +357,20 @@ const data = {
       ],
       technologies: ["Java", "Object-Oriented Programming", "Software Development"],
       github: "https://github.com/PathriVidyaPraveen/Infinite-Precision-Calculator-in-Java",
+      liveDemo: null
+    },
+    {
+      name: "Continuous-Time Statistical Arbitrage: An Ornstein-Uhlenbeck Framework with First-Passage Time Threshold Optimisation",
+      association: null,
+      dates: null,
+      description: "Developed a systematic pairs trading framework using cointegration analysis, Ornstein–Uhlenbeck process modeling, and optimal stopping theory.",
+      bullets: [
+        "Derived exact MLE estimators for OU parameters and optimal entry thresholds via first-passage-time analysis and the Kolmogorov backward equation.",
+        "Implemented a rolling walk-forward, out-of-sample backtesting engine with transaction costs and slippage.",
+        "Achieved a Sharpe ratio of 1.23 and Calmar ratio of 2.34 on a 499-day OOS evaluation period."
+      ],
+      technologies: ["Quantitative Finance", "Stochastic Calculus", "Ornstein-Uhlenbeck Process", "Statistical Arbitrage", "Cointegration", "Optimal Stopping Theory", "Python", "Time Series Analysis"],
+      github: "https://github.com/PathriVidyaPraveen/continuous-time-statistical-arbitrage",
       liveDemo: null
     },
     {
