@@ -21,7 +21,7 @@ const data = {
   experience: {
     research: [
       {
-        title: "Fluid Dynamics Researcher",
+        title: "Solute Dispersion in FENE-P Fluid Flows",
         workplace: "Department of Mathematics, IIT Hyderabad",
         duration: "March 2026 – Present",
         bullets: [
@@ -33,7 +33,7 @@ const data = {
         ]
       },
       {
-        title: "Optimal Transport Researcher",
+        title: "Constraint-Aware Generative Control via Optimal Transport and Flow Matching",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "April 2026 – Present",
         bullets: [
@@ -44,7 +44,7 @@ const data = {
         ]
       },
       {
-        title: "Computer Vision Researcher",
+        title: "Point Supervised Building Identification from Aerial Imagery",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "Nov 2025 – Present",
         bullets: [
@@ -55,7 +55,7 @@ const data = {
         ]
       },
       {
-        title: "Cryptography Research Intern",
+        title: "Zero Correlation Linear Cryptanalysis on Unbalanced Fiestel Networks",
         workplace: "Center for Cryptography and Cybersecurity, IIT Hyderabad",
         workplaceUrl: "https://ccs.iith.ac.in/",
         duration: "May 2026 – July 2026",
@@ -66,7 +66,7 @@ const data = {
         ]
       },
       {
-        title: "Computer Vision Researcher",
+        title: "Deepfake Detection via Cross-Modal Inconsistency using Vision and Biological Signals",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "Sep 2025 – Feb 2026",
         bullets: [
@@ -79,6 +79,12 @@ const data = {
     ],
 
     teaching: [
+      {
+        title: "Teaching Assistant",
+        workplace: "Department of Mathematics, IIT Hyderabad",
+        duration: "Sept 2026 – Oct 2026",
+        description: "Assisting as a Teaching Assistant for MA2120 Transform Techniques course during the Jul–Nov 2026 semester under Prof. Balasubramaniam Jayaram, supporting tutorials, course administration and student discussions."
+      },
       {
         title: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
@@ -243,22 +249,22 @@ const data = {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Double Major in Mathematics",
       dates: "July 2026 - July 2028",
-      grade: "NA",
-      description: "Coursework:\n1) Numerical Analysis"
+      grade: "9.00",
+      description: "Coursework:\n1) Numerical Analysis\n2) Fuzzy Logic Connectives: Theory and Applications"
     },
     {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Minor in Electrical Engineering",
       dates: "July 2026 - July 2028",
       grade: "NA",
-      description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction"
+      description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction\n3) Deep Learning"
     },
     {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Computer Science and Engineering",
       dates: "July 2024 - July 2028",
       grade: "9.23",
-      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Reinforcement Learning, Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Data Mining, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers, Introduction to Queer Studies"
+      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers, Introduction to Queer Studies"
     },
     {
       institution: "Narayana Junior College - Vijayawada",
