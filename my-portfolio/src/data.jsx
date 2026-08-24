@@ -14,7 +14,7 @@ const data = {
   leetcode: "https://leetcode.com/u/Pathri_Vidya_Praveen/",
 
   about: {
-    summary: "My research sits at the intersection of mathematics, theoretical physics, and machine learning — currently focused on fluid dynamics, optimal transport, and computer vision.",
+    summary: "My research sits at the intersection of mathematics, theoretical physics, and machine learning — currently focused on fluid dynamics, combinatorics and graph theory, optimal transport, and computer vision.",
     detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad, pursuing a Double Major in Mathematics and a Minor in Electrical Engineering. My work draws on mathematics and its deep connections to physics and artificial intelligence. Beyond research, I find psychology, philosophy, and music just as compelling — each, in its own way, a study of structure: of the world, of the mind trying to understand it, and of the patterns we find beautiful."
   },
 
@@ -30,6 +30,17 @@ const data = {
           "Deriving analytical approximations and implementing numerical schemes to study Taylor dispersion, vortex dynamics, and transport characteristics under varying flow conditions.",
           "Investigating numerical stability and convergence properties of continuous-time mathematical models through computational simulations.",
           "This research was done under supervision of Prof. Jyotirmoy Rana."
+        ]
+      },
+      {
+        title: "List Conflict Free Colorings of Planar Graphs",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+        duration: "July 2026 – Present",
+        bullets: [
+          "Conducting research in Extremal Graph Theory and Combinatorics, focusing on List Conflict-Free Colorings of Planar Graphs.",
+          "Investigating tighter upper bounds on the Conflict-Free Choice Number of planar graphs, targeting an improvement from the existing bound of 12 to 11 under relaxed structural constraints.",
+          "Developing and analyzing structural and combinatorial techniques to establish improved bounds for conflict-free list colorings of planar graphs.",
+          "This research was done under supervision of Prof. Rogers Mathew."
         ]
       },
       {
@@ -89,7 +100,7 @@ const data = {
         title: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "July 2026 – Nov 2026",
-        description: "Assisting as a Teaching Assistant for CS1010 Discrete Mathematics for Computer Science course during the Jul–Nov 2026 semester under Prof. Rogers Mathew, supporting tutorials, course administration, and student discussions."
+        description: "Assisting as a Teaching Assistant for CS1010 Discrete Mathematics for Computer Science course during the Jul–Nov 2026 semester under Prof. Rogers Mathew and Prof. Shibam Ghosh, supporting tutorials, course administration, and student discussions."
       },
       {
         title: "Teaching Assistant",
