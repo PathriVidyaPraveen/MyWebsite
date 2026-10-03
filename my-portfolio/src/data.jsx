@@ -14,8 +14,8 @@ const data = {
   leetcode: "https://leetcode.com/u/Pathri_Vidya_Praveen/",
 
   about: {
-    summary: "My research sits at the intersection of mathematics, theoretical physics, and machine learning — currently focused on fluid dynamics, combinatorics and graph theory, optimal transport, and computer vision.",
-    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad, pursuing a Double Major in Mathematics and a Minor in Electrical Engineering. My work draws on mathematics and its deep connections to physics and artificial intelligence. Beyond research, I find psychology, philosophy, and music just as compelling — each, in its own way, a study of structure: of the world, of the mind trying to understand it, and of the patterns we find beautiful."
+    summary: "",
+    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad, pursuing a Double Major in Mathematics and a Minor in Electrical Engineering. My work draws on Mathematics, Theoretical Physics and Artificial Intelligence. Beyond academics and research, I love listening to music and exploring psychology and philosophy in my free time."
   },
 
   experience: {
@@ -124,6 +124,17 @@ const data = {
 
     academicServiceAndActivities: [
       {
+        title: "Quantum Technologies Core Member",
+        workplace: "QET — The Quantum Technologies Club of IIT Hyderabad",
+        duration: "Sep 2026 – Present",
+        description: "Working across the physical and theoretical foundations of quantum technologies.",
+        bullets: [
+          "Quantum Hardware — Quantum systems and qubit realizations, quantum dynamics, control, measurement, noise, decoherence, and physical quantum-computing architectures.",
+          "Quantum Error Correction and Communication — Quantum information, open quantum systems, quantum channels, error-correcting codes, fault tolerance, entanglement, and quantum communication.",
+          "Quantum Algorithms and Quantum Machine Learning — Quantum mechanics-inspired computational methods, quantum algorithms, variational quantum systems, quantum simulation, optimization, and quantum machine learning."
+        ]
+      },
+      {
         title: "Volunteer, RAAM 2026",
         workplace: "4th International Conference on Recent Advances in Applied Mathematics, IIT Hyderabad",
         duration: "6 – 8 July 2026",
@@ -163,16 +174,16 @@ const data = {
 
   news: [
     {
+      date: "7 September 2026",
+      text: "Secured All India Rank 106 among 7,500+ participants in Round 1 of Integral Cup 2026 – Season 2, organised by STEMvibe Foundation."
+    },
+    {
       date: "8 July 2026",
       text: "Assisted in organizing the 4th International Conference on Recent Advances in Applied Mathematics organized by Dept. of Mathematics, IITH."
     },
     {
       date: "18 June 2026",
       text: "Conducted hands-on sessions in Linear Cryptanalysis in ACM Summer School on Symmetric Key Cryptography as a Teaching Assistant."
-    },
-    {
-      date: "11 May 2026",
-      text: "Started my research internship in Cryptography and Theoretical Computer Science in CCS, IIT Hyderabad."
     },
     {
       date: "10 May 2026",
@@ -374,6 +385,20 @@ const data = {
       ],
       technologies: ["Java", "Object-Oriented Programming", "Software Development"],
       github: "https://github.com/PathriVidyaPraveen/Infinite-Precision-Calculator-in-Java",
+      liveDemo: null
+    },
+    {
+      name: "Adaptive LZ77 Compression for Efficient Communication & High-Performance TCP Networking",
+      association: "CS3530 Computer Networks",
+      dates: null,
+      description: "Built a Linux TCP client-server system centered on an adaptive LZ77 compression protocol, alongside DNS-based hostname resolution and concurrent multi-client serving.",
+      bullets: [
+        "Designed a bit-packed adaptive LZ77 compression protocol with a bounded 4-KB sliding window, achieving 64.3% average size reduction on repetitive data and 45.3% on text.",
+        "Built a Linux TCP client with getaddrinfo()-based DNS resolution across IPv4/IPv6, validated via tcpdump/Wireshark.",
+        "Implemented pthread-per-connection TCP serving with explicit message framing, achieving up to 8.52× speedup over 16 concurrent clients."
+      ],
+      technologies: ["C", "TCP/IP", "DNS", "Sockets", "Linux", "pthreads", "Data Compression", "Computer Networks"],
+      github: "https://github.com/PathriVidyaPraveen/Adaptive-LZ77-Compression-for-Efficient-Communication-High-Performance-TCP-Networking",
       liveDemo: null
     },
     {
@@ -672,6 +697,14 @@ const data = {
       date: "Apr 2025",
       description: "Awarded with the Academic Excellence Award on April 2 2025 for securing the highest CGPA of 9.88 in the Department of Computer Science and Engineering on occasion of 17th Foundation Day of IITH.",
       link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Honor/1967727871/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64",
+      linkLabel: "View Award"
+    },
+    {
+      name: "AIR 106 – Integral Cup 2026 Season 2 (Round 1)",
+      issuer: "STEMvibe Foundation",
+      date: "Sep 2026",
+      description: "Secured All India Rank 106 among 7,500+ registered participants in Round 1 of Integral Cup 2026 – Season 2, a national-level mathematics and quantitative problem-solving competition sponsored by Jane Street and organised by STEMvibe Foundation. The competition covered four tracks: Discrete Mathematics, Number Theory, Mathematics for Machine Learning, and Reinforcement Learning. The offline examination was conducted across 47 centres nationwide, and the result qualified me for the next round of the competition.",
+      link: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a/overlay/Honor/2041248303/treasury/?profileId=ACoAAFDgMjMBx5blDUnHkJFNNGpVLwMKGFPLl64",
       linkLabel: "View Award"
     },
     {
