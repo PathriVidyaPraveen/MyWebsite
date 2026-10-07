@@ -124,6 +124,12 @@ const data = {
 
     academicServiceAndActivities: [
       {
+        title: "Volunteer, Elliptic PDEs and Beyond 2027",
+        workplace: "Elliptic PDEs and Beyond 2027 conference, Department of Mathematics, IIT Hyderabad",
+        duration: "4 – 6 February 2027",
+        description: "Assisting in organizing the Elliptic PDEs and Beyond 2027 conference, hosted by the Department of Mathematics, IIT Hyderabad. Designing and developing the conference website and supporting the organizing team with event coordination and volunteering activities."
+      },
+      {
         title: "Quantum Technologies Core Member",
         workplace: "QET — The Quantum Technologies Club of IIT Hyderabad",
         duration: "Sep 2026 – Present",
@@ -285,8 +291,8 @@ const data = {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Computer Science and Engineering",
       dates: "July 2024 - July 2028",
-      grade: "9.23",
-      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers, Introduction to Queer Studies"
+      grade: "9.24",
+      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Vector Calculus, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers"
     },
     {
       institution: "Narayana Junior College - Vijayawada",
@@ -684,8 +690,7 @@ const data = {
         "Japanese Culture and Society (A-)",
         "Communication Skills (A-)",
         "Courts and Lawyers (currently enrolled)",
-        "Psychology for Everyday Life (currently enrolled)",
-        "Introduction to Queer Studies (currently enrolled)"
+        "Psychology for Everyday Life (currently enrolled)"
       ]
     }
   ],
