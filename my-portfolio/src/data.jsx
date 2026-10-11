@@ -397,7 +397,7 @@ const data = {
       name: "Adaptive LZ77 Compression for Efficient Communication & High-Performance TCP Networking",
       association: "CS3530 Computer Networks",
       dates: null,
-      description: "Built a Linux TCP client-server system centered on an adaptive LZ77 compression protocol, alongside DNS-based hostname resolution and concurrent multi-client serving.",
+      description: "Built a Linux TCP client-server system centered on an adaptive LZ77 compression protocol, alongside DNS-based hostname resolution and concurrent multi-client serving. Done collaboratively with T.Amrutha, guided by Prof. Kotaro Kataoka, Department of CSE.",
       bullets: [
         "Designed a bit-packed adaptive LZ77 compression protocol with a bounded 4-KB sliding window, achieving 64.3% average size reduction on repetitive data and 45.3% on text.",
         "Built a Linux TCP client with getaddrinfo()-based DNS resolution across IPv4/IPv6, validated via tcpdump/Wireshark.",
