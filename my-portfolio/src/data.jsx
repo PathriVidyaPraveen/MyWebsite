@@ -325,89 +325,6 @@ const data = {
       liveDemo: null
     },
     {
-      name: "Building a Mini Operating System: Scheduler, Virtual Memory, and RAID Storage in xv6 (RISC-V)",
-      association: "CS3523 Operating Systems-II — Course Project",
-      dates: null,
-      description: "Course project extending the xv6 (RISC-V) kernel with a custom scheduler, virtual memory, and RAID-backed storage. Guided by Prof. Abhijit Das, Department of CSE, IIT Hyderabad.",
-      bullets: [
-        "Replaced the default scheduler with a System-Call-Aware Multi-Level Feedback Queue scheduler with anti-starvation priority boosts.",
-        "Added demand paging with Clock-based page replacement and a disk-backed swap system.",
-        "Implemented RAID 0/1/5 for swap storage and FCFS/SSTF disk scheduling."
-      ],
-      technologies: ["C", "RISC-V", "xv6", "Operating Systems", "Systems Programming", "Virtual Memory", "RAID", "Disk Scheduling"],
-      github: "https://github.com/PathriVidyaPraveen/cs3523-xv6-26",
-      liveDemo: null
-    },
-    {
-      name: "Learning Biological Dynamics with Neural Networks: SBINN-Based System Identification of Glucose–Insulin Models",
-      association: "CH6330 Systems Biology — Course Project",
-      dates: null,
-      description: "Course project modeling glucose-insulin dynamics with physics-informed neural networks. Guided by Prof. Lopamudra Giri, Department of Chemical Engineering, IITH.",
-      bullets: [
-        "Modeled the ultradian glucose-insulin system as a 6-state, 21-parameter nonlinear ODE under sparse (glucose-only) observability.",
-        "Used Systems Biology Informed Neural Networks (DeepXDE/TensorFlow) to recover unknown parameters from noisy time series.",
-        "Validated predictions against ground-truth trajectories and ran Monte Carlo sensitivity analysis."
-      ],
-      technologies: ["Physics-Informed Neural Networks", "DeepXDE", "TensorFlow", "Systems Biology", "ODE Solvers", "Python", "Monte Carlo Simulation"],
-      github: "https://github.com/PathriVidyaPraveen/Identifiability-Analysis-and-Parameter-Identification-via-Systems-Biology-Informed-Neural-Network",
-      liveDemo: null
-    },
-    {
-      name: "Efficiently Using Extra Register Bits When Smaller Datatype is Needed — ISA Extension and Efficient Quantum Circuit Simulation",
-      association: "CS2323 Computer Architecture — Course Project",
-      dates: null,
-      description: "Course project on a custom RISC-V ISA extension for low-precision and quantum-inspired arithmetic, with B. Sri Sai Abhinav, guided by Prof. Rajesh Kedia, Department of CSE, IITH.",
-      bullets: [
-        "Added a SIMD framework and BFloat16/Float16/MSFP16 arithmetic within standard 64-bit registers.",
-        "Designed a Quantum-Inspired ALU that packs complex amplitudes into registers to simulate quantum arithmetic classically.",
-        "Verified all extensions in a custom ~4000-line C simulator."
-      ],
-      technologies: ["C", "RISC-V", "Computer Architecture", "ISA Design", "SIMD", "Quantum Computing", "Error Correction Codes", "Signal Processing"],
-      github: "https://github.com/bssabhinavbss/Computer-architecture-project",
-      liveDemo: null
-    },
-    {
-      name: "Digital Logic Simplifier and Verilog Converter",
-      association: "EE1202 Digital Circuits — Course Project",
-      dates: null,
-      description: "Course project building a web-based digital logic simplifier and Verilog generator. Guided by Prof. Ashudeb Datta, Department of Electrical Engineering, IITH.",
-      bullets: [
-        "Implemented Quine–McCluskey minimization to scale past Karnaugh Map limits.",
-        "Auto-generated Verilog HDL modules and self-checking testbenches.",
-        "Built a client-side SVG visualizer for minimized circuits and truth tables."
-      ],
-      technologies: ["Verilog", "JavaScript", "HTML", "CSS", "Digital Circuits", "Boolean Algebra", "SVG"],
-      github: "https://github.com/PathriVidyaPraveen/EE1202-Digital-Circuits-Project-Digital-Logic-Simplifier-and-Verilog-Converter",
-      liveDemo: null
-    },
-    {
-      name: "Infinite Precision Arithmetic Library",
-      association: "CS1023 Software Development Fundamentals — Course Project",
-      dates: null,
-      description: "Course project implementing an arbitrary-precision arithmetic library in Java. Guided by Prof. Ashish Mishra, Department of CSE, IITH.",
-      bullets: [
-        "Built AInteger and AFloat classes on string-based representations to avoid round-off error.",
-        "Implemented addition, subtraction, multiplication, and division from first principles for arbitrarily large numbers."
-      ],
-      technologies: ["Java", "Object-Oriented Programming", "Software Development"],
-      github: "https://github.com/PathriVidyaPraveen/Infinite-Precision-Calculator-in-Java",
-      liveDemo: null
-    },
-    {
-      name: "Adaptive LZ77 Compression for Efficient Communication & High-Performance TCP Networking",
-      association: "CS3530 Computer Networks",
-      dates: null,
-      description: "Built a Linux TCP client-server system centered on an adaptive LZ77 compression protocol, alongside DNS-based hostname resolution and concurrent multi-client serving. Done collaboratively with Tamminana Amrutha, guided by Prof. Kotaro Kataoka, Department of CSE.",
-      bullets: [
-        "Designed a bit-packed adaptive LZ77 compression protocol with a bounded 4-KB sliding window, achieving 64.3% average size reduction on repetitive data and 45.3% on text.",
-        "Built a Linux TCP client with getaddrinfo()-based DNS resolution across IPv4/IPv6, validated via tcpdump/Wireshark.",
-        "Implemented pthread-per-connection TCP serving with explicit message framing, achieving up to 8.52× speedup over 16 concurrent clients."
-      ],
-      technologies: ["C", "TCP/IP", "DNS", "Sockets", "Linux", "pthreads", "Data Compression", "Computer Networks"],
-      github: "https://github.com/PathriVidyaPraveen/Adaptive-LZ77-Compression-for-Efficient-Communication-High-Performance-TCP-Networking",
-      liveDemo: null
-    },
-    {
       name: "Continuous-Time Statistical Arbitrage: An Ornstein-Uhlenbeck Framework with First-Passage Time Threshold Optimisation",
       association: null,
       dates: null,
@@ -436,16 +353,17 @@ const data = {
       liveDemo: null
     },
     {
-      name: "Audio Source Separation using Classical Digital Signal Processing",
-      association: "Waveform Wars DSP Hackathon — Elan & nVision, IIT Hyderabad",
+      name: "Learning Biological Dynamics with Neural Networks: SBINN-Based System Identification of Glucose–Insulin Models",
+      association: "CH6330 Systems Biology — Course Project",
       dates: null,
-      description: "Hackathon project (Waveform Wars DSP, Elan & nVision, IITH) separating two overlapping audio sources using classical signal processing only, no ML.",
+      description: "Course project modeling glucose-insulin dynamics with physics-informed neural networks. Guided by Prof. Lopamudra Giri, Department of Chemical Engineering, IITH.",
       bullets: [
-        "Separated and reconstructed frequency-overlapping sources without training data or neural networks.",
-        "Evaluated separation quality using SDR, SIR, and SAR metrics."
+        "Modeled the ultradian glucose-insulin system as a 6-state, 21-parameter nonlinear ODE under sparse (glucose-only) observability.",
+        "Used Systems Biology Informed Neural Networks (DeepXDE/TensorFlow) to recover unknown parameters from noisy time series.",
+        "Validated predictions against ground-truth trajectories and ran Monte Carlo sensitivity analysis."
       ],
-      technologies: ["Signal Processing", "Python", "Digital Signal Processing", "Audio Processing", "Time-Frequency Analysis"],
-      github: "https://github.com/PathriVidyaPraveen/Audio-Source-Separation",
+      technologies: ["Physics-Informed Neural Networks", "DeepXDE", "TensorFlow", "Systems Biology", "ODE Solvers", "Python", "Monte Carlo Simulation"],
+      github: "https://github.com/PathriVidyaPraveen/Identifiability-Analysis-and-Parameter-Identification-via-Systems-Biology-Informed-Neural-Network",
       liveDemo: null
     },
     {
@@ -460,6 +378,19 @@ const data = {
       ],
       technologies: ["Signal Processing", "Adaptive Filtering", "Python", "Digital Signal Processing", "Audio Processing", "FFT"],
       github: "https://github.com/PathriVidyaPraveen/Acoustic-Echo-Cancellation-in-Hands-Free-Systems",
+      liveDemo: null
+    },
+    {
+      name: "Audio Source Separation using Classical Digital Signal Processing",
+      association: "Waveform Wars DSP Hackathon — Elan & nVision, IIT Hyderabad",
+      dates: null,
+      description: "Hackathon project (Waveform Wars DSP, Elan & nVision, IITH) separating two overlapping audio sources using classical signal processing only, no ML.",
+      bullets: [
+        "Separated and reconstructed frequency-overlapping sources without training data or neural networks.",
+        "Evaluated separation quality using SDR, SIR, and SAR metrics."
+      ],
+      technologies: ["Signal Processing", "Python", "Digital Signal Processing", "Audio Processing", "Time-Frequency Analysis"],
+      github: "https://github.com/PathriVidyaPraveen/Audio-Source-Separation",
       liveDemo: null
     },
     {
@@ -487,6 +418,78 @@ const data = {
       liveDemoLabel: "Certificate"
     },
     {
+      name: "Efficiently Using Extra Register Bits When Smaller Datatype is Needed — ISA Extension and Efficient Quantum Circuit Simulation",
+      association: "CS2323 Computer Architecture — Course Project",
+      dates: null,
+      description: "Course project on a custom RISC-V ISA extension for low-precision and quantum-inspired arithmetic, with B. Sri Sai Abhinav, guided by Prof. Rajesh Kedia, Department of CSE, IITH.",
+      bullets: [
+        "Added a SIMD framework and BFloat16/Float16/MSFP16 arithmetic within standard 64-bit registers.",
+        "Designed a Quantum-Inspired ALU that packs complex amplitudes into registers to simulate quantum arithmetic classically.",
+        "Verified all extensions in a custom ~4000-line C simulator."
+      ],
+      technologies: ["C", "RISC-V", "Computer Architecture", "ISA Design", "SIMD", "Quantum Computing", "Error Correction Codes", "Signal Processing"],
+      github: "https://github.com/bssabhinavbss/Computer-architecture-project",
+      liveDemo: null
+    },
+    {
+      name: "Adaptive LZ77 Compression for Efficient Communication & High-Performance TCP Networking",
+      association: "CS3530 Computer Networks",
+      dates: null,
+      description: "Built a Linux TCP client-server system centered on an adaptive LZ77 compression protocol, alongside DNS-based hostname resolution and concurrent multi-client serving. Done collaboratively with Tamminana Amrutha, guided by Prof. Kotaro Kataoka, Department of CSE.",
+      bullets: [
+        "Designed a bit-packed adaptive LZ77 compression protocol with a bounded 4-KB sliding window, achieving 64.3% average size reduction on repetitive data and 45.3% on text.",
+        "Built a Linux TCP client with getaddrinfo()-based DNS resolution across IPv4/IPv6, validated via tcpdump/Wireshark.",
+        "Implemented pthread-per-connection TCP serving with explicit message framing, achieving up to 8.52× speedup over 16 concurrent clients."
+      ],
+      technologies: ["C", "TCP/IP", "DNS", "Sockets", "Linux", "pthreads", "Data Compression", "Computer Networks"],
+      github: "https://github.com/PathriVidyaPraveen/Adaptive-LZ77-Compression-for-Efficient-Communication-High-Performance-TCP-Networking",
+      liveDemo: null
+    },
+    {
+      name: "Digital Logic Simplifier and Verilog Converter",
+      association: "EE1202 Digital Circuits — Course Project",
+      dates: null,
+      description: "Course project on exact two-level minimization of Boolean functions, from algebraic simplification to synthesizable hardware. Guided by Prof. Ashudeb Datta, Department of Electrical Engineering, IITH.",
+      bullets: [
+        "Implemented the Quine–McCluskey algorithm, generating all prime implicants by iteratively merging minterms at Hamming distance one on the Boolean hypercube.",
+        "Reduced the prime implicant chart to a minimum cover through essential prime implicant selection, giving a tabular method that scales beyond the visual limits of Karnaugh maps.",
+        "Translated minimized sum-of-products expressions into Verilog HDL modules with self-checking testbenches, plus an SVG visualizer for truth tables and gate-level circuits."
+      ],
+      technologies: ["Verilog", "JavaScript", "HTML", "CSS", "Digital Circuits", "Boolean Algebra", "SVG"],
+      github: "https://github.com/PathriVidyaPraveen/EE1202-Digital-Circuits-Project-Digital-Logic-Simplifier-and-Verilog-Converter",
+      liveDemo: null
+    },
+    {
+      name: "LLVM #232483 — Clang Diagnostic Fix for C Tentative Definitions",
+      association: "CS3423 Compilers-II — Course Hackathon",
+      dates: null,
+      description: "Open-source contribution to Clang (LLVM Project) adding a missing -Wuninitialized-explicit-init diagnostic for C tentative definitions that are never completed. Guided by Prof. Ashish Mishra and Prof. Ramakrishna Upadrasta, Department of CSE, IITH.",
+      bullets: [
+        "Traced Clang's semantic analysis of C initialization semantics to find where uncompleted tentative definitions escaped the diagnostic.",
+        "Implemented diagnostic handling for tentative definitions that are never completed.",
+        "Added regression tests covering the new diagnostic behavior; the patch was reviewed and merged into the official LLVM repository."
+      ],
+      technologies: ["C", "C++", "LLVM", "Clang", "Compiler Design", "Regression Testing"],
+      github: "https://github.com/llvm/llvm-project/pull/234210",
+      githubLabel: "Merged PR",
+      liveDemo: "https://github.com/llvm/llvm-project/commit/58936cb3678b4b5b96177f24cac3940b9a389fe3",
+      liveDemoLabel: "LLVM Commit"
+    },
+    {
+      name: "Building a Mini Operating System: Scheduler, Virtual Memory, and RAID Storage in xv6 (RISC-V)",
+      association: "CS3523 Operating Systems-II — Course Project",
+      dates: null,
+      description: "Course project extending the xv6 (RISC-V) kernel with a custom scheduler, virtual memory, and RAID-backed storage. Guided by Prof. Abhijit Das, Department of CSE, IIT Hyderabad.",
+      bullets: [
+        "Replaced the default scheduler with a System-Call-Aware Multi-Level Feedback Queue scheduler with anti-starvation priority boosts.",
+        "Added demand paging with Clock-based page replacement and a disk-backed swap system.",
+        "Implemented RAID 0/1/5 for swap storage and FCFS/SSTF disk scheduling."
+      ],
+      technologies: ["C", "RISC-V", "xv6", "Operating Systems", "Systems Programming", "Virtual Memory", "RAID", "Disk Scheduling"],
+      github: "https://github.com/PathriVidyaPraveen/cs3523-xv6-26",
+      liveDemo: null
+    },
+    {
       name: "RISC-V RV64I Instruction Assembler",
       association: null,
       dates: null,
@@ -497,6 +500,19 @@ const data = {
       ],
       technologies: ["C", "RISC-V", "Systems Programming", "Compilers", "Assembly Language"],
       github: "https://github.com/PathriVidyaPraveen/RISC-V-RV64I-Assembler",
+      liveDemo: null
+    },
+    {
+      name: "Infinite Precision Arithmetic Library",
+      association: "CS1023 Software Development Fundamentals — Course Project",
+      dates: null,
+      description: "Course project implementing an arbitrary-precision arithmetic library in Java. Guided by Prof. Ashish Mishra, Department of CSE, IITH.",
+      bullets: [
+        "Built AInteger and AFloat classes on string-based representations to avoid round-off error.",
+        "Implemented addition, subtraction, multiplication, and division from first principles for arbitrarily large numbers."
+      ],
+      technologies: ["Java", "Object-Oriented Programming", "Software Development"],
+      github: "https://github.com/PathriVidyaPraveen/Infinite-Precision-Calculator-in-Java",
       liveDemo: null
     },
     {

@@ -38,7 +38,7 @@ const Projects = ({ data }) => {
                   rel="noopener noreferrer"
                   className="text-accent-blue hover:text-blue-400 font-semibold flex items-center"
                 >
-                  GitHub <span className="ml-1 text-sm">↗</span>
+                  {project.githubLabel || "GitHub"} <span className="ml-1 text-sm">↗</span>
                 </a>
               )}
               {project.liveDemo && (
