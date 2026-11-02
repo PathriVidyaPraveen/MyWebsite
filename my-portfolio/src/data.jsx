@@ -92,9 +92,21 @@ const data = {
     teaching: [
       {
         title: "Teaching Assistant",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+        duration: "Jan 2027 – May 2027",
+        description: "Assisting as a Teaching Assistant for the NPTEL Theory of Computation course during the Jan–May 2027 session under Prof. Subrahmanyam Kalyanasundaram, preparing weekly assignments and solution keys, designing auto-gradable assessments, and addressing student queries on the course forum.",
+        projectLinks: [
+          { label: "Course Webpage", url: "https://onlinecourses.nptel.ac.in/e-learning/preview/noc26_cs85" }
+        ]
+      },
+      {
+        title: "Teaching Assistant",
         workplace: "Department of Mathematics, IIT Hyderabad",
         duration: "Sept 2026 – Oct 2026",
-        description: "Assisting as a Teaching Assistant for MA2120 Transform Techniques course during the Jul–Nov 2026 semester under Prof. Balasubramaniam Jayaram, supporting tutorials, course administration and student discussions."
+        description: "Assisting as a Teaching Assistant for MA2120 Transform Techniques course during the Jul–Nov 2026 semester under Prof. Balasubramaniam Jayaram, supporting tutorials, course administration and student discussions.",
+        projectLinks: [
+          { label: "Course Webpage", url: "https://people.iith.ac.in/jbala/ma2120_transforms.html" }
+        ]
       },
       {
         title: "Teaching Assistant",
@@ -106,13 +118,19 @@ const data = {
         title: "Teaching Assistant",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "July 2026 – Sept 2026",
-        description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications."
+        description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications.",
+        projectLinks: [
+          { label: "Course Webpage", url: "https://anjanamahesh.github.io/courses/EE2080_july_nov_2026.html" }
+        ]
       },
       {
         title: "Teaching Assistant",
         workplace: "Department of Artificial Intelligence, IIT Hyderabad",
         duration: "Jan 2026 – May 2026",
-        description: "Assisted as a Teaching Assistant for AI1110 Probability and Random Variables course during the Jan–May 2026 semester under Prof. Anjana A M, helping with course logistics, conducting tutorials, and addressing student queries on probability theory and random variables."
+        description: "Assisted as a Teaching Assistant for AI1110 Probability and Random Variables course during the Jan–May 2026 semester under Prof. Anjana A M, helping with course logistics, conducting tutorials, and addressing student queries on probability theory and random variables.",
+        projectLinks: [
+          { label: "Course Webpage", url: "https://anjanamahesh.github.io/courses/ai1110_jan_apr_2026.html" }
+        ]
       },
       {
         title: "Teaching Assistant",
