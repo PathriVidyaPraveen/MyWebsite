@@ -36,6 +36,31 @@ const HonorsAndAwards = ({ data }) => {
           </div>
         ))}
       </div>
+
+      {data.competitiveProgramming && data.competitiveProgramming.length > 0 && (
+        <>
+          <h3 className="text-2xl font-semibold text-accent-blue mt-16 mb-8 border-b-2 border-accent-blue pb-2">Competitive Programming</h3>
+          <div className="flex flex-col gap-6">
+            {data.competitiveProgramming.map((cp, index) => (
+              <div key={index} className="bg-component-bg p-5 rounded-lg shadow-md border border-gray-700">
+                <h3 className="text-xl font-bold text-white mb-1">{cp.platform}</h3>
+                <p className="text-gray-300 text-sm mb-1">Handle: {cp.handle}</p>
+                <p className="text-gray-200 mb-2">{cp.rating} &bull; Max Rating: {cp.maxRating}</p>
+                {cp.link && (
+                  <a
+                    href={cp.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-blue hover:text-blue-400 text-sm font-semibold"
+                  >
+                    {cp.linkLabel} ↗
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 };

@@ -9,13 +9,12 @@ const data = {
   emailSecondary: "vidyapraveen.2006@gmail.com",
   github: "https://github.com/PathriVidyaPraveen",
   linkedin: "https://www.linkedin.com/in/pathri-vidya-praveen-9834b531a",
-  codeforces: "https://codeforces.com/profile/praveen.ipynb",
   codechef: "https://www.codechef.com/users/praveen_0_6",
   leetcode: "https://leetcode.com/u/Pathri_Vidya_Praveen/",
 
   about: {
     summary: "",
-    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad, pursuing a Double Major in Mathematics and a Minor in Electrical Engineering. My work draws on Mathematics, Theoretical Physics and Artificial Intelligence. Beyond academics and research, I love listening to music and exploring psychology and philosophy in my free time."
+    detailed: "I am a third-year Computer Science and Engineering undergraduate at IIT Hyderabad, pursuing a Double Major in Mathematics and a Minor in Electrical Engineering. My work draws on Physics, Mathematics, Electrical Engineering (particularly Communications, Signal Processing and Learning) and Artificial Intelligence. Beyond academics and research, I love listening to music and exploring psychology and philosophy in my free time."
   },
 
   experience: {
@@ -33,25 +32,16 @@ const data = {
         ]
       },
       {
-        title: "List Conflict Free Colorings of Planar Graphs",
-        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
-        duration: "July 2026 – Present",
+        id: "quantum-hardware-research",
+        title: "Superconducting Quantum Hardware & Condensed Matter Physics",
+        workplace: "Ultrafast Terahertz Photonics Laboratory (UTPL), Department of Physics, IIT Hyderabad",
+        duration: "Nov 2026 – Present",
         bullets: [
-          "Conducting research in Extremal Graph Theory and Combinatorics, focusing on List Conflict-Free Colorings of Planar Graphs.",
-          "Investigating tighter upper bounds on the Conflict-Free Choice Number of planar graphs, targeting an improvement from the existing bound of 12 to 11 under relaxed structural constraints.",
-          "Developing and analyzing structural and combinatorial techniques to establish improved bounds for conflict-free list colorings of planar graphs.",
-          "This research was done under supervision of Prof. Rogers Mathew."
-        ]
-      },
-      {
-        title: "Constraint-Aware Generative Control via Optimal Transport and Flow Matching",
-        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
-        duration: "April 2026 – Present",
-        bullets: [
-          "Studying the mathematical foundations of Optimal Transport, including Kantorovich formulations, Wasserstein geometry, and entropic regularization.",
-          "Exploring applications of Optimal Transport in machine learning, including distribution alignment, domain adaptation, and generative modeling.",
-          "Investigating Optimal Transport-based formulations for rigorous analysis of Deep Generative Models, Flow Models, and Diffusion-based learning frameworks.",
-          "This research was done along with Gagan Chandra under supervision of Prof. Sakethanath Jagarlapudi."
+          "Investigating the electrodynamics of conventional and high-Tc superconductors, with emphasis on cuprates such as YBCO (YBa₂Cu₃O₇₋δ) alongside Aluminium and Niobium thin films — studying London electrodynamics, Meissner screening, flux penetration and superconducting coherence.",
+          "Exploring the interplay of geometric and kinetic inductance in superconducting thin films, including high-impedance resonators, superinductance and the Pearl length, modelled through equivalent LC/RLC circuits.",
+          "Studying superconducting split-ring resonator (SRR) metamaterials and multilayer superconducting circuits, using 3D-MLSI for inductance extraction, current-distribution modelling and device optimization, with connections to superconducting quantum circuit architecture.",
+          "Exploring light–matter interactions and nonequilibrium phenomena in superconducting quantum materials via terahertz time-domain spectroscopy (THz-TDS) and optical pump–THz probe spectroscopy, linking their electromagnetic response to photon-detection hardware.",
+          "This research is being done under supervision of Prof. Yogesh Kumar Srivastava, as a faculty-associated project through the Quantum Engineering & Technology Club."
         ]
       },
       {
@@ -63,6 +53,28 @@ const data = {
           "Formulating the problem using Marked Point Processes (MPP) and Gibbs Energy Models to incorporate spatial interaction priors and object-level constraints.",
           "Designing Bayesian inference pipelines based on Reversible Jump Markov Chain Monte Carlo (RJMCMC) and simulated annealing for optimization over complex spatial configurations.",
           "This research was done under supervision of Prof. Shashank Vatedka."
+        ]
+      },
+      {
+        title: "List Conflict Free Colorings of Planar Graphs",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+        duration: "July 2026 – Nov 2026",
+        bullets: [
+          "Conducted research in Extremal Graph Theory and Combinatorics, focusing on List Conflict-Free Colorings of Planar Graphs.",
+          "Investigated tighter upper bounds on the Conflict-Free Choice Number of planar graphs, targeting an improvement from the existing bound of 12 to 11 under relaxed structural constraints.",
+          "Developed and analyzed structural and combinatorial techniques to establish improved bounds for conflict-free list colorings of planar graphs.",
+          "This research was done under supervision of Prof. Rogers Mathew as a BTech Mini Project in my 5th semester."
+        ]
+      },
+      {
+        title: "Constraint-Aware Generative Control via Optimal Transport and Flow Matching",
+        workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
+        duration: "April 2026 – Nov 2026",
+        bullets: [
+          "Studied the mathematical foundations of Optimal Transport, including Kantorovich formulations, Wasserstein geometry, and entropic regularization.",
+          "Explored applications of Optimal Transport in machine learning, including distribution alignment, domain adaptation, and generative modeling.",
+          "Investigated Optimal Transport-based formulations for rigorous analysis of Deep Generative Models, Flow Models, and Diffusion-based learning frameworks.",
+          "This research was done along with Gagan Chandra under supervision of Prof. Sakethanath Jagarlapudi."
         ]
       },
       {
@@ -90,6 +102,12 @@ const data = {
     ],
 
     teaching: [
+      {
+        title: "Teaching Assistant",
+        workplace: "Department of Electrical Engineering, IIT Hyderabad",
+        duration: "Jan 2027 – May 2027",
+        description: "Assisting as a Teaching Assistant for EE3800/EE5903 Information Theory, Coding and Inference course during the Jan–May 2027 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions."
+      },
       {
         title: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
@@ -142,20 +160,27 @@ const data = {
 
     academicServiceAndActivities: [
       {
-        title: "Volunteer, Elliptic PDEs and Beyond 2027",
-        workplace: "Elliptic PDEs and Beyond 2027 conference, Department of Mathematics, IIT Hyderabad",
+        title: "Website Designer",
+        workplace: "Elliptic PDEs and Beyond 2027, Department of Mathematics, IIT Hyderabad",
+        workplaceUrl: "https://epicpde.github.io/EPIB/",
         duration: "4 – 6 February 2027",
-        description: "Assisting in organizing the Elliptic PDEs and Beyond 2027 conference, hosted by the Department of Mathematics, IIT Hyderabad. Designing and developing the conference website and supporting the organizing team with event coordination and volunteering activities."
+        description: "Designed and developed the official conference website, and volunteering with the organizing team on event coordination and logistics.",
+        projectLinks: [
+          { label: "Conference Website", url: "https://epicpde.github.io/EPIB/" }
+        ]
       },
       {
-        title: "Quantum Technologies Core Member",
+        title: "Quantum Hardware Core Member",
         workplace: "QET — The Quantum Technologies Club of IIT Hyderabad",
         duration: "Sep 2026 – Present",
-        description: "Working across the physical and theoretical foundations of quantum technologies.",
+        description: "I work on the physical side of quantum computing — studying how qubits are realized, controlled and measured, and how noise and decoherence shape the design of practical quantum hardware. Alongside this, I contribute to the club's broader work across its three domains:",
         bullets: [
           "Quantum Hardware — Quantum systems and qubit realizations, quantum dynamics, control, measurement, noise, decoherence, and physical quantum-computing architectures.",
           "Quantum Error Correction and Communication — Quantum information, open quantum systems, quantum channels, error-correcting codes, fault tolerance, entanglement, and quantum communication.",
           "Quantum Algorithms and Quantum Machine Learning — Quantum mechanics-inspired computational methods, quantum algorithms, variational quantum systems, quantum simulation, optimization, and quantum machine learning."
+        ],
+        projectLinks: [
+          { label: "My Quantum Hardware Research", url: "/experience/research#quantum-hardware-research", internal: true }
         ]
       },
       {
@@ -197,6 +222,10 @@ const data = {
   },
 
   news: [
+    {
+      date: "12 November 2026",
+      text: "Presented my research work on List Conflict Free Colorings of Planar Graphs."
+    },
     {
       date: "7 September 2026",
       text: "Secured All India Rank 106 among 7,500+ participants in Round 1 of Integral Cup 2026 – Season 2, organised by STEMvibe Foundation."
@@ -296,21 +325,36 @@ const data = {
       degree: "B.Tech Double Major in Mathematics",
       dates: "July 2026 - July 2028",
       grade: "9.00",
-      description: "Coursework:\n1) Numerical Analysis\n2) Fuzzy Logic Connectives: Theory and Applications"
+      description: "Coursework:\n1) Numerical Analysis\n2) Fuzzy Logic Connectives: Theory and Applications",
+      courseLinks: {
+        "Fuzzy Logic Connectives: Theory and Applications": "https://github.com/PathriVidyaPraveen/Fuzzy-Logic-Connectives-Theory-and-Applications-MA6040"
+      }
     },
     {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Minor in Electrical Engineering",
       dates: "July 2026 - July 2028",
       grade: "NA",
-      description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction\n3) Deep Learning"
+      description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction\n3) Deep Learning",
+      courseLinks: {
+        "Linear Systems and Signal Processing": "https://github.com/PathriVidyaPraveen/Linear-Systems-and-Signal-Processing-EE1206",
+        "Quantum Error Correction": "https://github.com/PathriVidyaPraveen/Quantum-Error-Correction-EE5750",
+        "Deep Learning": "https://github.com/PathriVidyaPraveen/Deep-Learning-EE6380"
+      }
     },
     {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Computer Science and Engineering",
       dates: "July 2024 - July 2028",
       grade: "9.24",
-      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Vector Calculus, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers"
+      description: "Received the Academic Excellence Award (April 2025) for securing the highest first-semester CGPA (9.88) among the CSE'28 batch.\n\nMachine Learning & AI: Convex Optimization 2 - Algorithms, Concentration Inequalities, Foundations of Machine Learning, Artificial Intelligence, Probability and Random Variables\n\nMathematics: Introduction to Metric Spaces, Introduction to Group Theory, Vector Calculus, Differential Equations, Transform Techniques, Complex Variables, Linear Algebra, Introduction to Statistics, Calculus-II, Calculus-I\n\nElectrical Engineering: Information Theory - Coding and Inference, Convex Optimization, Random Processes, Energy Management, Digital Circuits, Basic Electrical Engineering\n\nTheoretical Computer Science: Theory of Computation, Algorithms, Data Structures, Discrete Maths for Computer Science\n\nComputer Systems: Compilers-II, Compilers-I, OS-II, OS-I, DBMS-II, DBMS-I, Computer Networks, Computer Architecture, Software Development Fundamentals, Introduction to Programming, Intoduction to Computing\n\nPhysics: Modern Physics, Physics Lab\n\nPsychology: Psychology of Well Being, Psychopathology and Mental Health, Psychology of Interpersonal Relationships, Psychology for Everyday Life\n\nAdditional Coursework: Systems Biology, Consumers and Commodities - An Introduction to Economic Anthropology, Introduction to Life Sciences, Environmental Chemistry, Digital Fabrication, Japanese Culture and Society, Communication Skills, Courts and Lawyers",
+      courseLinks: {
+        "Vector Calculus": "https://github.com/PathriVidyaPraveen/Vector-Calculus-MA1130",
+        "Convex Optimization 2 - Algorithms": "https://github.com/PathriVidyaPraveen/Convex-Optimization-2-Algorithms-CS5660",
+        "Foundations of Machine Learning": "https://github.com/PathriVidyaPraveen/Foundations-of-Machine-Learning-CS3390",
+        "Computer Networks": "https://github.com/PathriVidyaPraveen/Computer-Networks-CS3530",
+        "Compilers-II": "https://github.com/PathriVidyaPraveen/Compilers-II-CS3423"
+      }
     },
     {
       institution: "Narayana Junior College - Vijayawada",
@@ -329,17 +373,45 @@ const data = {
 
   projects: [
     {
+      name: "Measure-Theoretic Analysis and Non-Additive Generalization of Fuzzy Set Embeddings",
+      association: "MA6040 Fuzzy Logic Connectives: Theory and Applications — Course Project",
+      dates: null,
+      description: "Course project on the mathematical foundations and generalization of Fuzzy Set Embeddings (FUSE) for taxonomy expansion, with Gagan Chandra, guided by Prof. Balasubramaniam Jayaram, Department of Mathematics, IITH.",
+      bullets: [
+        "Developed a measure-theoretic analysis of fuzzy set embeddings, correcting approximation guarantees and convergence rates, and characterizing consistency of supremum-based embeddings via Darboux integration and oscillation bounds.",
+        "Generalized additive fuzzy-volume integration to non-additive capacities via Choquet and Sugeno integrals (incl. 2-additive Möbius representations), establishing theoretical bounds between the two.",
+        "Introduced an interval-based possibility–necessity embedding with sibling-exclusivity constraints, restoring sound set-difference inference and raising held-out parent accuracy on SemEval-2016 Environment from 2.9% to 31.0% (MRR 14.8% → 48.5%)."
+      ],
+      technologies: ["Fuzzy Logic", "Measure Theory", "Choquet Integral", "Sugeno Integral", "Fuzzy Measures", "Possibility Theory", "Representation Learning", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/Measure-Theoretic-Analysis-and-Non-Additive-Generalization-of-Fuzzy-Set-Embeddings",
+      liveDemo: null
+    },
+    {
       name: "Convex Clustering and Mixture Modeling with Theoretical Guarantees and ADMM Optimization",
       association: "EE5606 Convex Optimization — Course Project",
       dates: null,
-      description: "Course project on convex clustering and mixture modeling, with Gagan Chandra, B. Sri Sai Abhinav, and Uppala Prajin, guided by Prof. Sumohana S. Channappayya, Department of Electrical Engineering, IITH.",
+      description: "Course project on convex clustering as a globally optimal alternative to EM for mixture modeling, with Gagan Chandra, B. Sri Sai Abhinav, and Uppala Prajin, guided by Prof. Sumohana S. Channappayya, Department of Electrical Engineering, IITH.",
       bullets: [
-        "Extended convex clustering as an alternative to EM, avoiding local minima and initialization sensitivity.",
-        "Solved the objective via ADMM, comparing ℓ1/ℓ2 fusion penalties and adaptive weighting schemes.",
-        "Derived deterministic recovery guarantees from covariance-based bounds and validated them via simulation."
+        "Derived deterministic recovery guarantees for sum-of-norms clustering via trace bounds on the empirical covariance, replacing probabilistic concentration arguments — for spherical components, recovery holds whenever θ² > d.",
+        "Extended cluster-characterization theory to ℓ1 fusion penalties and multiplicative weights rᵢrⱼ via subgradient optimality and dual certificates.",
+        "Built an ADMM solver comparing ℓ1 vs ℓ2 clusterpaths and kernel, inverse-norm and adaptive localized weights; adaptive weights achieved perfect core recovery on anisotropic (ellipsoidal) mixtures."
       ],
-      technologies: ["Convex Optimization", "ADMM", "Clustering", "Mixture Models", "Python", "Numerical Analysis"],
+      technologies: ["Convex Optimization", "Sum-of-Norms Clustering", "Recovery Guarantees", "Dual Certificates", "ADMM", "Mixture Models", "Python"],
       github: "https://github.com/PathriVidyaPraveen/Convex-Clustering-Mixture-Modeling-Extensions-Structured-Weighting-l1-Fusion-Deterministic-Recovery",
+      liveDemo: null
+    },
+    {
+      name: "ProxSkip: Communication-Efficient Distributed Optimization",
+      association: "CS5660 Convex Optimization 2: Algorithms — Course Project",
+      dates: null,
+      description: "Paper study and numerical simulations of ProxSkip, a randomized proximal-gradient method for communication-efficient federated learning, guided by Prof. Sakethanath Jagarlapudi, Department of Computer Science and Engineering, IITH.",
+      bullets: [
+        "Studied ProxSkip's randomized proximal framework, which skips expensive proximal evaluations probabilistically to cut communication rounds in distributed optimization.",
+        "Analyzed its control-variate correction for client drift in heterogeneous federated learning, deriving convergence guarantees via Lyapunov analysis, gradient contraction and firm nonexpansiveness of proximal operators.",
+        "Simulated heterogeneous distributed ridge regression comparing Gradient Descent, Local GD and Scaffnew across local-step frequencies, validating the theoretically optimal skipping probability p = 1/√κ."
+      ],
+      technologies: ["Convex Optimization", "Proximal Methods", "Federated Learning", "Distributed Optimization", "Convergence Analysis", "Lyapunov Analysis", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/Convex-Optimization-2-Algorithms-CS5660",
       liveDemo: null
     },
     {
@@ -354,6 +426,62 @@ const data = {
       ],
       technologies: ["Quantitative Finance", "Stochastic Calculus", "Ornstein-Uhlenbeck Process", "Statistical Arbitrage", "Cointegration", "Optimal Stopping Theory", "Python", "Time Series Analysis"],
       github: "https://github.com/PathriVidyaPraveen/continuous-time-statistical-arbitrage",
+      liveDemo: null
+    },
+    {
+      name: "Deep Learning-Based Automatic Modulation Classification Under Fading and Noisy Communication Channels",
+      association: "EE6380 Deep Learning — Course Project",
+      dates: null,
+      description: "Course project on classifying digital modulation schemes under fading, receiver impairments and varying SNR, with Dhanush V Nayak, Kaustubh P Khachane, and Bhuvanesh Sunil Nehete, guided by Prof. Shashank Vatedka, Department of Electrical Engineering, IITH.",
+      bullets: [
+        "Developed a parameter-efficient CNN classifying eight modulation schemes (OOK, BPSK, QPSK, 16-QAM, 2-FSK, 4-FSK, GMSK, OFDM) across fading channels and noise levels.",
+        "Designed a parameter-free signal-processing front-end with fading-normalised spectral and statistical features, feeding a CNN with circular frequency padding, dilated residual convolutions and statistics-based pooling.",
+        "Used noise-model-driven augmentation, label smoothing, EMA and class-weighted loss, achieving 81.90% test accuracy with only 48,472 trainable parameters."
+      ],
+      technologies: ["Deep Learning", "CNN", "Wireless Communication", "Signal Processing", "Fading Channels", "PyTorch", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/Deep-Learning-Based-Automatic-Modulation-Classification-Under-Fading-Noisy-Communication-Channels",
+      liveDemo: null
+    },
+    {
+      name: "Deep Learning for Autoregressive Spectrum Occupancy Prediction in Cognitive Radio Networks",
+      association: "EE6380 Deep Learning — Course Project",
+      dates: null,
+      description: "Course project on next-slot spectrum occupancy prediction for cognitive-radio spectrum sensing, with Dhanush V Nayak, Kaustubh P Khachane, and Bhuvanesh Sunil Nehete, guided by Prof. Shashank Vatedka, Department of Electrical Engineering, IITH.",
+      bullets: [
+        "Designed BandFormer, a parameter-efficient causal architecture modelling temporal activity and interdependencies across six frequency sub-bands.",
+        "Built a shared-weight multi-stream model combining GRUs, causal self-attention, cross-band attention and residual MLP blocks to capture long-range periodic patterns while preserving strict autoregressive causality.",
+        "Optimised training with mixed precision, fused AdamW, torch.compile, cosine LR scheduling and EMA, achieving 81.83% validation accuracy with 49,645 parameters under a 50,000-parameter budget."
+      ],
+      technologies: ["Deep Learning", "Transformers", "GRU", "Attention Mechanisms", "Cognitive Radio", "Time Series Forecasting", "PyTorch", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/Deep-Learning-for-Autoregressive-Spectrum-Occupancy-Prediction-in-Cognitive-Radio-Networks",
+      liveDemo: null
+    },
+    {
+      name: "Structured Prediction for Dependency Parsing: A Stacked Ensemble of Transition-Based and Graph-Based Models",
+      association: "CS3390 Foundations of Machine Learning — Course Project",
+      dates: null,
+      description: "Individual course project formulating dependency parsing as structured prediction over valid dependency trees using classical machine learning, guided by Prof. Srijith P.K. and Prof. Sandipan Dandapat, Department of Computer Science and Engineering, IITH.",
+      bullets: [
+        "Investigated complementary transition-based and graph-based parsers, with greedy and beam-search decoding, first- and second-order dependency models, and maximum spanning arborescence algorithms.",
+        "Designed a multi-stage stacked ensemble integrating supertag prediction, distributional word representations (PPMI, truncated SVD, k-means) and out-of-fold parser predictions.",
+        "Combined eight parsers via weighted arc voting and Chu–Liu–Edmonds decoding to enforce globally valid trees, achieving 84.01% labelled attachment score (LAS) on held-out sentences."
+      ],
+      technologies: ["Structured Prediction", "Dependency Parsing", "Ensemble Learning", "Graph Algorithms", "NLP", "Machine Learning", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/Structured-Prediction-for-Dependency-Parsing",
+      liveDemo: null
+    },
+    {
+      name: "Design and Spectral Characterization of LTI Reverberation, LTV Delay Modulation, and Two-Band Equalization in Musical Audio Signals",
+      association: "EE1206 Linear Systems and Signal Processing — Course Project",
+      dates: null,
+      description: "Course project on the design and spectral analysis of linear time-invariant and time-varying audio systems, with Matteddu Balaji Sai Charan, Dande Stephen, and Madhavarapu Viswanatha Naga Sai Ram, guided by Prof. Sundar Vanka, Department of Electrical Engineering, IITH.",
+      bullets: [
+        "Designed sparse FIR reverberation systems from delayed, attenuated reflections, deriving transfer functions and frequency responses to analyze comb-filter ripple, causality, linearity and BIBO stability.",
+        "Developed sinusoidally modulated delay (flanging) systems with fractional-delay interpolation, analyzing sweeping spectral notches and Doppler pitch modulation, validated via STFT analysis.",
+        "Designed a second-order Butterworth biquad via the bilinear transform for a two-band equalizer, analyzing stability, pole-zero structure, phase response and non-complementary band splitting."
+      ],
+      technologies: ["Signal Processing", "LTI Systems", "LTV Systems", "Digital Filter Design", "FFT", "STFT", "Python", "NumPy"],
+      github: "https://github.com/PathriVidyaPraveen/Design-and-Spectral-Characterization-of-LTI-Reverberation-LTV-Delay-Modulation-Two-Band-Equalization",
       liveDemo: null
     },
     {
@@ -447,6 +575,20 @@ const data = {
       ],
       technologies: ["C", "RISC-V", "Computer Architecture", "ISA Design", "SIMD", "Quantum Computing", "Error Correction Codes", "Signal Processing"],
       github: "https://github.com/bssabhinavbss/Computer-architecture-project",
+      liveDemo: null
+    },
+    {
+      name: "FedGrant: Value-Aware, Deadline-Aware Packet Scheduling for Federated Learning over Lossy Networks",
+      association: "CS3530 Computer Networks — Course Project",
+      dates: null,
+      description: "Course project on a receiver-driven edge gateway that schedules federated-learning model updates packet by packet under bursty loss and tight round deadlines, with Thamatam Jayadev Reddy, Thumma Tejaswi, and Uppala Prajin, guided by Prof. Kotaro Kataoka, Department of CSE, IITH.",
+      bullets: [
+        "Formulated each round as maximizing the FedAvg-weighted update energy delivered before the deadline; the gateway grants every bottleneck slot to the most valuable pending block across clients, with value-ordered retransmission and error feedback.",
+        "Designed P-GRU, a 5.6k-parameter recurrent delivery predictor tracking Gilbert–Elliott loss bursts and queue build-up, cutting Brier score ~40% vs EWMA and beating HMM and MLP baselines, including on unseen cellular traces.",
+        "Deployed the predictor in NumPy inside the asyncio UDP gateway (~1 ms for 20 clients) on a Mininet/netem testbed; FedGrant delivered ~2× the update value of TCP and +0.09–0.11 over plan-then-send scheduling."
+      ],
+      technologies: ["Computer Networks", "Federated Learning", "Packet Scheduling", "GRU", "Hidden Markov Models", "Mininet", "PyTorch", "Python"],
+      github: "https://github.com/PathriVidyaPraveen/FedGrant",
       liveDemo: null
     },
     {
@@ -768,6 +910,17 @@ const data = {
       score: "295 / 300",
       date: "Apr 2024",
       rank: "AIR 84. Secured 100 percentile in Physics in April 2024 session and 100 percentile in Chemistry in both January 2024 and April 2024 sessions."
+    }
+  ],
+
+  competitiveProgramming: [
+    {
+      platform: "Codeforces",
+      handle: "praveen.ipynb",
+      rating: "Specialist",
+      maxRating: 1594,
+      link: "https://codeforces.com/profile/praveen.ipynb",
+      linkLabel: "Codeforces Profile"
     }
   ],
 
