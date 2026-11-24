@@ -103,13 +103,15 @@ const data = {
 
     teaching: [
       {
-        title: "Teaching Assistant",
+        title: "EE3800/EE5903 Information Theory, Coding and Inference",
+        role: "Teaching Assistant",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "Jan 2027 – May 2027",
         description: "Assisting as a Teaching Assistant for EE3800/EE5903 Information Theory, Coding and Inference course during the Jan–May 2027 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions."
       },
       {
-        title: "Teaching Assistant",
+        title: "NPTEL Theory of Computation",
+        role: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "Jan 2027 – May 2027",
         description: "Assisting as a Teaching Assistant for the NPTEL Theory of Computation course during the Jan–May 2027 session under Prof. Subrahmanyam Kalyanasundaram, preparing weekly assignments and solution keys, designing auto-gradable assessments, and addressing student queries on the course forum.",
@@ -118,7 +120,8 @@ const data = {
         ]
       },
       {
-        title: "Teaching Assistant",
+        title: "MA2120 Transform Techniques",
+        role: "Teaching Assistant",
         workplace: "Department of Mathematics, IIT Hyderabad",
         duration: "Sept 2026 – Oct 2026",
         description: "Assisting as a Teaching Assistant for MA2120 Transform Techniques course during the Jul–Nov 2026 semester under Prof. Balasubramaniam Jayaram, supporting tutorials, course administration and student discussions.",
@@ -127,13 +130,15 @@ const data = {
         ]
       },
       {
-        title: "Teaching Assistant",
+        title: "CS1010 Discrete Mathematics for Computer Science",
+        role: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "July 2026 – Nov 2026",
         description: "Assisting as a Teaching Assistant for CS1010 Discrete Mathematics for Computer Science course during the Jul–Nov 2026 semester under Prof. Rogers Mathew and Prof. Shibam Ghosh, supporting tutorials, course administration, and student discussions."
       },
       {
-        title: "Teaching Assistant",
+        title: "EE2080 Random Processes",
+        role: "Teaching Assistant",
         workplace: "Department of Electrical Engineering, IIT Hyderabad",
         duration: "July 2026 – Sept 2026",
         description: "Assisting as a Teaching Assistant for EE2080 Random Processes course during the Jul–Nov 2026 semester under Prof. Anjana A M, supporting tutorials, course administration, and student discussions on stochastic processes and their applications.",
@@ -142,7 +147,8 @@ const data = {
         ]
       },
       {
-        title: "Teaching Assistant",
+        title: "AI1110 Probability and Random Variables",
+        role: "Teaching Assistant",
         workplace: "Department of Artificial Intelligence, IIT Hyderabad",
         duration: "Jan 2026 – May 2026",
         description: "Assisted as a Teaching Assistant for AI1110 Probability and Random Variables course during the Jan–May 2026 semester under Prof. Anjana A M, helping with course logistics, conducting tutorials, and addressing student queries on probability theory and random variables.",
@@ -151,7 +157,8 @@ const data = {
         ]
       },
       {
-        title: "Teaching Assistant",
+        title: "ID1063 Introduction to Programming",
+        role: "Teaching Assistant",
         workplace: "Department of Computer Science and Engineering, IIT Hyderabad",
         duration: "July 2025 – Dec 2025",
         description: "Assisted as a Teaching Assistant for ID1063 Introduction to Programming course during the Jul–Nov 2025 semester under Prof. Saurabh Kumar and Prof. Srijith PK, conducting laboratory sessions and mentoring students in C programming fundamentals."

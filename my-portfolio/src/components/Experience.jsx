@@ -19,6 +19,9 @@ const Experience = ({ items, title }) => {
         {items.map((exp, index) => (
           <div key={index} id={exp.id} className="bg-component-bg border border-gray-700 p-6 rounded-lg shadow-md scroll-mt-24">
             <h3 className="text-xl font-bold text-white mb-1">{exp.title}</h3>
+            {exp.role && (
+              <p className="text-sm font-semibold uppercase tracking-wide text-gray-400 mb-1">{exp.role}</p>
+            )}
             {exp.workplaceUrl ? (
               <a href={exp.workplaceUrl} target="_blank" rel="noopener noreferrer" className="text-lg text-accent-blue mb-1 hover:underline block">{exp.workplace}</a>
             ) : (
