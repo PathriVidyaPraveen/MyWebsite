@@ -230,6 +230,10 @@ const data = {
 
   news: [
     {
+      date: "26 November 2026",
+      text: "Achieved an A+ grade in EE1206/EE3900 Linear Systems and Signal Processing Course."
+    },
+    {
       date: "12 November 2026",
       text: "Presented my research work on List Conflict Free Colorings of Planar Graphs."
     },
