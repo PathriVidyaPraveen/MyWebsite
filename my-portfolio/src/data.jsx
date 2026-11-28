@@ -345,7 +345,7 @@ const data = {
       institution: "Indian Institute of Technology, Hyderabad",
       degree: "B.Tech Minor in Electrical Engineering",
       dates: "July 2026 - July 2028",
-      grade: "NA",
+      grade: "10.00",
       description: "Coursework:\n1) Linear Systems and Signal Processing\n2) Quantum Error Correction\n3) Deep Learning",
       courseLinks: {
         "Linear Systems and Signal Processing": "https://github.com/PathriVidyaPraveen/Linear-Systems-and-Signal-Processing-EE1206",
@@ -364,7 +364,17 @@ const data = {
         "Convex Optimization 2 - Algorithms": "https://github.com/PathriVidyaPraveen/Convex-Optimization-2-Algorithms-CS5660",
         "Foundations of Machine Learning": "https://github.com/PathriVidyaPraveen/Foundations-of-Machine-Learning-CS3390",
         "Computer Networks": "https://github.com/PathriVidyaPraveen/Computer-Networks-CS3530",
-        "Compilers-II": "https://github.com/PathriVidyaPraveen/Compilers-II-CS3423"
+        "Compilers-II": "https://github.com/PathriVidyaPraveen/Compilers-II-CS3423",
+        "Systems Biology": "https://github.com/PathriVidyaPraveen/CH6330-Systems-Biology",
+        "Theory of Computation": "https://github.com/PathriVidyaPraveen/Theory-of-Computation-CS2030",
+        "Algorithms": "https://github.com/PathriVidyaPraveen/CS2443-Algorithms",
+        "Compilers-I": "https://github.com/PathriVidyaPraveen/CS3320-Compilers-1",
+        "OS-II": "https://github.com/PathriVidyaPraveen/Operating-Systems-2-CS3523",
+        "DBMS-II": "https://github.com/PathriVidyaPraveen/CS3563-DBMS-II",
+        "Convex Optimization": "https://github.com/PathriVidyaPraveen/EE5606-Convex-Optimization",
+        "Information Theory - Coding and Inference": "https://github.com/PathriVidyaPraveen/EE5903-Information-Theory-Coding-and-Inference",
+        "Complex Variables": "https://github.com/PathriVidyaPraveen/Complex-Variables-MA2130",
+        "Introduction to Statistics": "https://github.com/PathriVidyaPraveen/Introduction-to-Statistics-MA2140"
       }
     },
     {
